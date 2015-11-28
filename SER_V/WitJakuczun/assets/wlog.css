@@ -1,0 +1,87 @@
+<style type="text/css">
+
+.reveal {
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    color: black;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    margin: 0 0 20px 0;
+    color: black;
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    text-shadow: none; 
+    padding-bottom: 30px;
+}
+
+.reveal blockquote {
+    background: rgba(224,233,232,.9);
+}
+
+.reveal .title {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+    color: black;
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    text-shadow: none; 
+}
+    
+.reveal .author {
+    font-size: 1.5em;
+    margin: 0 0 20px 0;
+    color: black;
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    text-shadow: none; 
+}
+
+.reveal .date {
+    font-size: 0.75em;
+    margin: 0 0 20px 0;
+    color: black;
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    text-shadow: none; 
+}
+
+.reveal .rChart {
+    font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+    font-size: 10px;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    }
+
+.reveal iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 0px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    max-width: 95%;
+    max-height: 95%;
+}
+
+.reveal section img {
+    border: 0px solid black;
+}
+</style>

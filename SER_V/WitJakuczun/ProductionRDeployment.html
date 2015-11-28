@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Wit JakuczunWLOG Solutions" />
+  <meta name="dcterms.date" content="2014-10-23" />
+  <title>Wdrażanie produkcyjne GNU R na przykładzie branży energetycznej.</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="assets/reveal.js/css/reveal.min.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">code{white-space: pre;}</style>
+
+    <link rel="stylesheet" href="assets/reveal.js/css/theme/simple.css" id="theme">
+  <link rel="stylesheet" media="print" href="assets/reveal.js/css/print/pdf.css" />
+
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'assets/reveal.js/css/print/pdf.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+  <!--[if lt IE 9]>
+  <script src="assets/reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+
+    <style type="text/css">
+    
+    .reveal {
+        font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+        font-size: 36px;
+        font-weight: normal;
+        letter-spacing: -0.02em;
+        color: black;
+    }
+    
+    .reveal h1,
+    .reveal h2,
+    .reveal h3,
+    .reveal h4,
+    .reveal h5,
+    .reveal h6 {
+        margin: 0 0 20px 0;
+        color: black;
+        font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+        line-height: 0.9em;
+        letter-spacing: 0.02em;
+        text-transform: none;
+        text-shadow: none; 
+        padding-bottom: 30px;
+    }
+    
+    .reveal blockquote {
+        background: rgba(224,233,232,.9);
+    }
+    
+    .reveal .title {
+        font-size: 3em;
+        margin: 0 0 20px 0;
+        color: black;
+        font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+        line-height: 0.9em;
+        letter-spacing: 0.02em;
+        text-transform: none;
+        text-shadow: none; 
+    }
+        
+    .reveal .author {
+        font-size: 1.5em;
+        margin: 0 0 20px 0;
+        color: black;
+        font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+        line-height: 0.9em;
+        letter-spacing: 0.02em;
+        text-transform: none;
+        text-shadow: none; 
+    }
+    
+    .reveal .date {
+        font-size: 0.75em;
+        margin: 0 0 20px 0;
+        color: black;
+        font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+        line-height: 0.9em;
+        letter-spacing: 0.02em;
+        text-transform: none;
+        text-shadow: none; 
+    }
+    
+    .reveal .rChart {
+        font-family: Century Gothic, Arial, Courier New, Sans-Serif;
+        font-size: 10px;
+        display: block;
+        margin-left: auto; 
+        margin-right: auto;
+        width: auto;
+        height: auto;
+        }
+    
+    .reveal iframe {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 0px solid black;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        max-width: 95%;
+        max-height: 95%;
+    }
+    
+    .reveal section img {
+        border: 0px solid black;
+    }
+    </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section data-background="assets/welcome_background_biebrza.jpg" data-background-size="contain" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);background:rgba(224,233,232,.3);">
+    <h1 class="title">Wdrażanie produkcyjne GNU R na przykładzie branży energetycznej.</h1>
+    <h2 class="author"><br>Wit Jakuczun<br><small>WLOG Solutions</small><br><br></h2>
+    <h3 class="date">2014-10-23</h3>
+</section>
+<section id="plan-prezentacji" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1>Plan prezentacji</h1>
+<ul>
+<li>O mnie</li>
+<li>Studium przypadku</li>
+<li>Czego nauczył nas projekt?</li>
+<li>Co dalej?</li>
+</ul>
+</section>
+<section><section id="o-mnie" class="titleslide slide level1" data-background="assets/wlog_background.png" data-background-size="contain"><h1>O mnie</h1></section><section id="section" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="kim-jestem">Kim jestem?</h3>
+<ul>
+<li>Absolwent wydziału <a href="http://www.mimuw.edu.pl">MIM UW</a> (2002)</li>
+<li>Doktorat w <a href="http://www2.ipipan.waw.pl/index.php/pl/">IPI PAN</a> (2006)<br /></li>
+<li>Właściciel firmy <a href="http://www.wlogsolutions.com">WLOG Solutions</a> działającej od 8 lat.</li>
+<li>Profesjonalne usługi modelowania matematycznego
+<ul>
+<li>Analiza danych</li>
+<li>Optymalizacja</li>
+<li>Symulacje</li>
+</ul></li>
+<li>Specjalizacja w metodach optymalizacji kombinatorycznej
+<ul>
+<li>ale też w analizie danych wszelakich</li>
+</ul></li>
+</ul>
+</section><section id="section-1" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="moja-przygoda-z-gnu-r">Moja przygoda z GNU R</h3>
+<ul>
+<li>Użytkownik R od <strong>2004</strong> roku.</li>
+<li>W <strong>2006</strong> roku wdrożyłem modele prognozujące zapotrzebowanie na gaz.
+<ul>
+<li><em>Prawdopodobnie pierwsze produkcyjne wdrożenie GNU R w Polsce.</em></li>
+</ul></li>
+<li>Współtworzyłem pakiet <a href="http://cran.r-project.org/web/packages/localsolver/index.html">localsolver</a>.</li>
+<li>Aktualnie GNU R wykorzystuję w codziennej pracy jako podstawowy język skryptowy.</li>
+</ul>
+</section></section>
+<section><section id="studium-przypadku" class="titleslide slide level1" data-background="assets/wlog_background.png" data-background-size="contain"><h1>Studium przypadku</h1></section><section id="section-2" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="wyobraź-sobie-że-przeczytałeś-że">Wyobraź sobie, że przeczytałeś, że…</h3>
+<ul>
+<li>Zapowiedziano budowę nowego bloku energetycznego.</li>
+<li>Opublikowane zostały plany budowy znacznych ilości mocy wytwórczych w elektrowniach wiatrowych.</li>
+<li>Pojawiła się długoterminowa prognoza pogody zapowiadająca bardzo mroźną zimę lub gorące lato.</li>
+<li>Nastąpiła awaria standardowego bloku energetycznego wybranego typu (np. blok na węgiel kamienny).</li>
+<li>Ogłoszona została znacząca zmiana cen węgla kamiennego.</li>
+<li>Nastąpiła znacząca zmiana krajowego zapotrzebowania na energię elektryczną (np. w wyniku recesji).</li>
+<li>Nastąpiła znacząca zmiana cen uprawnień do emisji CO2, np. w skutek interwencji Komisji Europejskiej.</li>
+</ul>
+</section><section id="section-3" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="model-średnioterminowy-cen-spot-energii-elektrycznej-w-polsce">Model średnioterminowy cen spot energii elektrycznej w Polsce</h3>
+<figure>
+<img src="assets/ree_midterm.png" />
+</figure>
+</section><section id="section-4" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="przebieg-projektu">Przebieg projektu</h3>
+<ul>
+<li>Łączny czas projektu to około 4 miesiące</li>
+<li>Dostarczono 10 pakietów GNU R</li>
+<li>Łącznie napisano ponad 13K linii kodu</li>
+<li>Interfejs użytkownika na bazie MS Excel</li>
+</ul>
+</section></section>
+<section><section id="czego-nauczył-nas-projekt" class="titleslide slide level1" data-background="assets/wlog_background.png" data-background-size="contain"><h1>Czego nauczył nas projekt?</h1></section><section id="section-5" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="narzędzia">Narzędzia</h3>
+<ul>
+<li><a href="http://pl.wikipedia.org/wiki/System_kontroli_wersji">Kontrola wersji kodu</a>
+<ul>
+<li>SVN, GIT lub inne</li>
+</ul></li>
+<li><a href="http://www.rstudio.com/products/rstudio/#Desk">RStudio IDE</a>
+<ul>
+<li>lub inny sensowny edytor</li>
+</ul></li>
+</ul>
+</section><section id="section-6" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="pisanie-kodu-w-gnu-r">Pisanie kodu w GNU R</h3>
+<ul>
+<li>Kod dzielimy na <a href="http://adv-r.had.co.nz/Functions.html">funkcje</a>
+<ul>
+<li>funkcja powinna robić jedną rzecz</li>
+<li>nazwy funkcji muszą oddawać to co robi funkcja<br /></li>
+</ul></li>
+<li>Kontrolujemy argumenty funkcji
+<ul>
+<li>w oparciu o funkcję <a href="https://stat.ethz.ch/R-manual/R-devel/library/base/html/stopifnot.html">stopifnot</a></li>
+</ul></li>
+<li>Funkcjonalność zamknięta w <a href="http://r-pkgs.had.co.nz/">pakietach</a>
+<ul>
+<li>z pełną dokumentacją</li>
+<li>z opisem historii zmian</li>
+<li>z uzupełnionymi zależnościami</li>
+</ul></li>
+<li>Przykłady użycia pisane w oparciu o pakiet <a href="http://yihui.name/knitr/">knitr</a>
+<ul>
+<li>bardzo wygodne do tworzenia <a href="assets/energydemandforecaster.html">dokumentacji dla użytkownika</a></li>
+<li>bardzo wygodne do testowania pomysłów analitycznych</li>
+</ul></li>
+<li>Stosujemy wspólny styl kodowania
+<ul>
+<li>np. <a href="https://google-styleguide.googlecode.com/svn/trunk/Rguide.xml">Google’s R Style Guide</a><br /></li>
+<li>Piszemy w języku angielskim (zarówno funkcje jak i komentarze)</li>
+</ul></li>
+<li>Czytamy <a href="http://www.burns-stat.com/documents/books/the-r-inferno/">R Inferno</a> :)</li>
+</ul>
+</section><section id="section-7" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="przydatne-pakiety-wykorzystane-w-projekcie">Przydatne pakiety wykorzystane w projekcie</h3>
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/devtools/index.html">devtools</a>, żeby
+<ul>
+<li>sprawnie tworzyć pakiety</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/roxygen2/index.html">roxygen2</a>, żeby
+<ul>
+<li>wygodnie pisać dokumentację wewnętrzną GNU R</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/logging/index.html">logging</a>, żeby
+<ul>
+<li>monitorować działania programu</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/testthat/index.html">testthat</a>, żeby
+<ul>
+<li>testować funkcjonalność programu</li>
+</ul></li>
+</ul>
+</section><section id="section-8" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="przydatne-pakiety-wykorzystane-w-projekcie-c.d.">Przydatne pakiety wykorzystane w projekcie c.d.</h3>
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/data.table/index.html">data.table</a>, żeby
+<ul>
+<li>wydajnie przetwarzać duże ilości danych</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/reshape2/index.html">reshape2</a>, żeby
+<ul>
+<li>wygodnie przetwarzać dane</li>
+</ul></li>
+<li><a href="https://stat.ethz.ch/R-manual/R-devel/library/parallel/doc/parallel.pdf">parallel</a> i <a href="http://cran.r-project.org/web/packages/doParallel/index.html">doParallel</a>, żeby
+<ul>
+<li>w pełni wykorzystać moc obliczeniową komputera</li>
+<li>TAK DZIAŁA POD WINDOWS :)</li>
+</ul></li>
+<li><a href="http://yihui.name/knitr/">knitr</a>, żeby
+<ul>
+<li>wygodnie pisać dokumentację dla użytkownika i dla siebie</li>
+</ul></li>
+<li><a href="http://ggplot2.org/">ggplot2</a>, żeby
+<ul>
+<li>wygodnie tworzyć czytelne wykresy</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/RSQLite/index.html">RSQLite</a>, żeby
+<ul>
+<li>wygodnie składować dane</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/XLConnect/index.html">XLConnect</a>, żeby
+<ul>
+<li>wygodnie współpracować z MS Excel</li>
+</ul></li>
+</ul>
+</section><section id="section-9" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="inne-pakiety-na-które-warto-zwrócić-uwagę">Inne pakiety, na które warto zwrócić uwagę</h3>
+<ul>
+<li><a href="http://rstudio.github.io/packrat">packrat</a>, żeby
+<ul>
+<li>zapomnieć o brakujących pakietach</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/miniCRAN/index.html">miniCRAN</a>, żeby
+<ul>
+<li>mieć własne repozytorium pakietów w organizacji</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/magrittr/index.html">magrittr</a>, żeby
+<ul>
+<li>pisać czytelny kod w oparciu o koncepcję przetwarzania potokowego</li>
+</ul></li>
+<li><a href="http://cran.r-project.org/web/packages/tidyr/index.html">tidyr</a>, żeby
+<ul>
+<li>wygodnie tworzyć <em>uporządkowane dane</em> (ang. <a href="http://vita.had.co.nz/papers/tidy-data.html">tidy data</a>)</li>
+</ul></li>
+<li><a href="http://shiny.rstudio.com/">shiny</a>, żeby
+<ul>
+<li>tworzyć (nie)prosty interfejs użytkownika na bazie przeglądarki WWW</li>
+</ul></li>
+</ul>
+</section></section>
+<section><section id="co-dalej-z-gnu-r-w-przemyśle" class="titleslide slide level1" data-background="assets/wlog_background.png" data-background-size="contain"><h1>Co dalej z GNU R w przemyśle?</h1></section><section id="section-10" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="nowe-trendy">Nowe trendy</h3>
+<ul>
+<li>Duże wolumeny danych
+<ul>
+<li>Integracja z <a href="https://github.com/RevolutionAnalytics/RHadoop/wiki">Hadoop</a><br /></li>
+</ul></li>
+<li>Poprawa wydajności
+<ul>
+<li>Alternatywne implementacje R, np:
+<ul>
+<li><a href="http://mran.revolutionanalytics.com/download/">Revolution R Open</a></li>
+<li><a href="http://www.pqr-project.org/">pqR</a></li>
+</ul></li>
+<li>Obliczenia w oparciu o procesory graficzne, np.
+<ul>
+<li><a href="http://cran.r-project.org/web/packages/gputools/index.html">gpuTools</a></li>
+</ul></li>
+<li>Pisanie kawałków kodu w C++ w oparciu o pakiet <a href="http://cran.r-project.org/web/packages/Rcpp11/index.html">Rcpp11</a>
+<ul>
+<li>Raczej jako pakiet a nie działanie ad-hoc<br /></li>
+</ul></li>
+</ul></li>
+<li>Komercyjne wersje GNU R
+<ul>
+<li><a href="http://www.oracle.com/technetwork/database/database-technologies/r/r-enterprise/overview/index.html">Oracle R Enterprise</a></li>
+<li><a href="http://www.revolutionanalytics.com/">Revolution R Enterprise</a></li>
+</ul></li>
+</ul>
+</section><section id="section-11" class="slide level2" data-background="assets/wlog_background.png" data-background-size="contain">
+<h1></h1>
+<h3 id="wdrażanie-gnu-r-w-korporacjach">Wdrażanie GNU R w korporacjach</h3>
+<ul>
+<li>Dlaczego się nadaje?
+<ul>
+<li>Bo elastyczny</li>
+<li>Bo bogatszy</li>
+<li>Bo tańszy</li>
+</ul></li>
+<li>Co z wydajnością?
+<ul>
+<li>Pamięć jest tania!</li>
+<li>Są wersje komercyjne</li>
+</ul></li>
+<li>Co z pracownikami?
+<ul>
+<li>Młodzi znają R</li>
+<li>Starzy mogą się nauczyć :)</li>
+</ul></li>
+<li>To już się dzieje!
+<ul>
+<li><a href="http://www.revolutionanalytics.com/webinars/moving-sas-r">Moving from SAS to R</a> by Revolution Analytics</li>
+</ul></li>
+</ul>
+</section></section>
+</section>
+<section id="dziękuję-za-uwagę" class="titleslide slide level1 thankyou" data-background="assets/goodbye_background.jpg" data-background-size="contain" style="background: rgba(224,233,232,.9); color: black;">
+  <h1>Dziękuję za uwagę!</h1>
+  <div style="background:rgba(224,233,232,0); color: black; width:100%; height:95%; float:center; font-size:0.7em; display:table; vertical-align:middle;">
+    <!-- <div style="width:45%; float:left; display:table-cell; vertical-align:middle;"> -->
+    <!--   <img src="assets/wlog_background.png" alt=""> -->
+    <!-- </div> -->
+    <div style="width:45%; float:right; text-align:left; display:table-cell; vertical-align:middle;"> 
+	 	WLOG Solutions<br> 
+	 	ul. Harfowa 1A/25<br> 
+		02-389 Warszawa<br>
+		WWW: http://www.wlogsolutions.com
+    </div> 
+    <div style="width:45%; float:left; text-align:right; display:table-cell; vertical-align:middle;"> 
+      Wit Jakuczun<br>
+      tel: +48 601 820 620<br>
+      @: wit.jakuczun@wlogsolutions.com
+     </div> 
+  </div> 
+</section>
+
+  <script src="assets/reveal.js/lib/js/head.min.js"></script>
+  <script src="assets/reveal.js/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: false,
+        center: true,
+      width: 1280,
+      height: 933,
+      margin: 0,
+      minScale: 0.1,
+      maxScale: 2.0,
+      rollingLinks: true,
+        theme: 'simple', // available themes are in /css/theme
+        transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+]});
+    </script>
+  </body>
+</html>

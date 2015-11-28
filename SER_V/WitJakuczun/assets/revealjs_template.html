@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html$if(lang)$ lang="$lang$"$endif$>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+$for(author-meta)$
+  <meta name="author" content="$author-meta$" />
+$endfor$
+$if(date-meta)$
+  <meta name="dcterms.date" content="$date-meta$" />
+$endif$
+  <title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="$revealjs-url$/css/reveal.min.css"/>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">code{white-space: pre;}</style>
+
+$if(highlighting-css)$
+    <style type="text/css">
+$highlighting-css$
+    </style>
+$endif$
+$if(css)$
+$for(css)$
+    <link rel="stylesheet" href="$css$"/>
+$endfor$
+$else$
+    <link rel="stylesheet" href="$revealjs-url$/css/theme/simple.css" id="theme">
+$endif$
+  <link rel="stylesheet" media="print" href="$revealjs-url$/css/print/pdf.css" />
+
+  <script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = '$revealjs-url$/css/print/pdf.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+  </script>
+  <!--[if lt IE 9]>
+  <script src="$revealjs-url$/lib/js/html5shiv.js"></script>
+  <![endif]-->
+
+$if(math)$
+    $math$
+$endif$
+$for(header-includes)$
+    $header-includes$
+$endfor$
+</head>
+<body>
+$for(include-before)$
+$include-before$
+$endfor$
+  <div class="reveal">
+    <div class="slides">
+
+$if(title)$
+<section data-background="assets/welcome_background_biebrza.jpg" data-background-size="contain" style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);background:rgba(224,233,232,.3);">
+    <h1 class="title">$title$</h1>
+$if(subtitle)$
+  <h1 class="subtitle">$subtitle$</h1>
+$endif$
+$for(author)$
+    <h2 class="author">$author$</h2>
+$endfor$
+    <h3 class="date">$date$</h3>
+</section>
+$endif$
+$if(toc)$
+<section id="$idprefix$TOC">
+$toc$
+</section>
+$endif$
+$body$
+</section>
+<section id="dziękuję-za-uwagę" class="titleslide slide level1 thankyou" data-background="assets/goodbye_background.jpg" data-background-size="contain" style="background: rgba(224,233,232,.9); color: black;">
+  <h1>Dziękuję za uwagę!</h1>
+  <div style="background:rgba(224,233,232,0); color: black; width:100%; height:95%; float:center; font-size:0.7em; display:table; vertical-align:middle;">
+    <!-- <div style="width:45%; float:left; display:table-cell; vertical-align:middle;"> -->
+    <!--   <img src="assets/wlog_background.png" alt=""> -->
+    <!-- </div> -->
+    <div style="width:45%; float:right; text-align:left; display:table-cell; vertical-align:middle;"> 
+	 	WLOG Solutions<br> 
+	 	ul. Harfowa 1A/25<br> 
+		02-389 Warszawa<br>
+		WWW: http://www.wlogsolutions.com
+    </div> 
+    <div style="width:45%; float:left; text-align:right; display:table-cell; vertical-align:middle;"> 
+      Wit Jakuczun<br>
+      tel: +48 601 820 620<br>
+      @: wit.jakuczun@wlogsolutions.com
+     </div> 
+  </div> 
+</section>
+$for(include-after)$
+$include-after$
+$endfor$
+
+  <script src="$revealjs-url$/lib/js/head.min.js"></script>
+  <script src="$revealjs-url$/js/reveal.min.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: false,
+        center: true,
+      width: 1280,
+      height: 933,
+      margin: 0,
+      minScale: 0.1,
+      maxScale: 2.0,
+      rollingLinks: true,
+        theme: $if(theme)$'$theme$'$else$Reveal.getQueryHash().theme$endif$, // available themes are in /css/theme
+        transition: $if(transition)$'$transition$'$else$Reveal.getQueryHash().transition || 'default'$endif$, // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+]});
+    </script>
+  </body>
+</html>
