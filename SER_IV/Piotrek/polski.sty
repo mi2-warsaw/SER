@@ -1,0 +1,289 @@
+%%
+%% This is file `polski.sty',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% polski.dtx  (with options: `style')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from polski.sty.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file polski.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+\NeedsTeXFormat{LaTeX2e}[1996/12/01]
+\ProvidesPackage{polski}[1998/04/20 v1.01 Polish language package]
+\typeout{Document Language Style `polski' v1.01 <1998/04/20> (MOl)}
+\@ifpackageloaded{inputenc}{\typeout{\space\space\space
+                      Inputenc package detected. Catcodes not changed.}}{%
+\catcode`\^^a1=11 %\lccode`\^^a1=`\^^a1 \uccode`\^^a1=`\^^81  % a ogonek
+\catcode`\^^a2=11 %\lccode`\^^a2=`\^^a2 \uccode`\^^a2=`\^^82  % c acute
+\catcode`\^^a6=11 %\lccode`\^^a6=`\^^a6 \uccode`\^^a6=`\^^86  % e ogonek
+\catcode`\^^aa=11 %\lccode`\^^aa=`\^^aa \uccode`\^^aa=`\^^8a  % l crossed
+\catcode`\^^ab=11 %\lccode`\^^ab=`\^^ab \uccode`\^^ab=`\^^8b  % n acute
+\catcode`\^^f3=11 %\lccode`\^^f3=`\^^f3 \uccode`\^^f3=`\^^d3  % o acute
+\catcode`\^^b1=11 %\lccode`\^^b1=`\^^b1 \uccode`\^^b1=`\^^91  % s acute
+\catcode`\^^bb=11 %\lccode`\^^bb=`\^^bb \uccode`\^^bb=`\^^9b  % z dot
+\catcode`\^^b9=11 %\lccode`\^^b9=`\^^b9 \uccode`\^^b9=`\^^99  % z acute
+\catcode`\^^81=11 %\lccode`\^^81=`\^^a1 \uccode`\^^81=`\^^81  % A ogonek
+\catcode`\^^82=11 %\lccode`\^^82=`\^^a2 \uccode`\^^82=`\^^82  % C accute
+\catcode`\^^86=11 %\lccode`\^^86=`\^^a6 \uccode`\^^86=`\^^86  % E ogonek
+\catcode`\^^8a=11 %\lccode`\^^8a=`\^^aa \uccode`\^^8a=`\^^8a  % L crossed
+\catcode`\^^8b=11 %\lccode`\^^8b=`\^^ab \uccode`\^^8b=`\^^8b  % N accute
+\catcode`\^^d3=11 %\lccode`\^^d3=`\^^f3 \uccode`\^^d3=`\^^d3  % O acute
+\catcode`\^^91=11 %\lccode`\^^91=`\^^b1 \uccode`\^^91=`\^^91  % S acute
+\catcode`\^^9b=11 %\lccode`\^^9b=`\^^bb \uccode`\^^9b=`\^^9b  % Z dot
+\catcode`\^^99=11 %\lccode`\^^99=`\^^b9 \uccode`\^^99=`\^^99  % Z acute
+}
+\sfcode`\^^81=999    % A ogonek
+\sfcode`\^^82=999    % C acute
+\sfcode`\^^86=999    % E ogonek
+\sfcode`\^^8a=999    % L crossed
+\sfcode`\^^8b=999    % N acute
+\sfcode`\^^d3=999    % O acute
+\sfcode`\^^91=999    % S acute
+\sfcode`\^^9b=999    % Z dot
+\sfcode`\^^99=999    % Z acute
+\newlanguage\l@unhyphenable
+\def\selecthyphenation#1{%
+  \expandafter\ifx\csname l@#1\endcsname\relax
+    \PackageError{polski}{No hyphenation patterns for language `#1'}
+      {Hyphenation in this language will be disabled.}%
+    \selecthyphenation{unhyphenable}%
+  \else
+    \language\csname l@#1\endcsname
+  \fi
+  }
+\ifx\polish\undefined
+  \selecthyphenation{polish}
+\else
+    \language\polish
+\fi
+\lefthyphenmin=2
+\righthyphenmin=2
+\def\Slash{/}
+\def\PLSlash#1{%
+  \ifx#1\PLSlash \expandafter\Slash
+  \else
+    \expandafter \ifx \csname PLSlash@\string#1\endcsname \relax
+      \PLSlash@error#1%
+    \else
+      \expandafter\expandafter\expandafter\PLSlash@letter
+      \expandafter\expandafter\expandafter#1%
+    \fi
+  \fi
+}
+
+\def\PLSlash@error#1{\PackageError{polski}{%
+Illegal pair of characters /\noexpand#1 occurred}{%
+Only a character from the set [acelnosxzACELNOSXZ,'<>/-]
+                                        can appear after \Slash.\MessageBreak
+Proceed, I will omit both \Slash\ and the character following it.\MessageBreak
+You can also correct your mistake NOW, typing I followed by\MessageBreak
+whatever should be in the place of the offending pair.}}
+\def\PLSlash@letter#1{\csname PLSlash@#1\endcsname}
+\def\PL@accent@def#1#2{%
+  \expandafter\def \csname PLSlash@\string #1\endcsname{#2}}
+\PL@accent@def{a}{\k a}
+\PL@accent@def{c}{\@tabacckludge'c}
+\PL@accent@def{e}{\k e}
+\PL@accent@def{l}{\l}
+\PL@accent@def{n}{\@tabacckludge'n}
+\PL@accent@def{o}{\@tabacckludge'o}
+\PL@accent@def{s}{\@tabacckludge's}
+\PL@accent@def{x}{\@tabacckludge'z}
+\PL@accent@def{z}{\.z}
+\PL@accent@def{A}{\k A}
+\PL@accent@def{C}{\@tabacckludge'C}
+\PL@accent@def{E}{\k E}
+\PL@accent@def{L}{\L}
+\PL@accent@def{N}{\@tabacckludge'N}
+\PL@accent@def{O}{\@tabacckludge'O}
+\PL@accent@def{S}{\@tabacckludge'S}
+\PL@accent@def{X}{\@tabacckludge'Z}
+\PL@accent@def{Z}{\.Z}
+\PL@accent@def{<}{\guillemotleft}
+\PL@accent@def{>}{\guillemotright}
+\PL@accent@def{,}{\quotedblbase}
+\PL@accent@def{'}{\textquotedblright}
+\PL@accent@def{-}{\dywiz}
+\let \PL@accent@def \undefined
+\@ifpackageloaded{plprefix}{}{%
+    \def\prefixing{\catcode`/=\active
+        \bgroup \uccode`\~=`/ \uppercase{\egroup \let~\PLSlash}%
+        \let\pr@fix=T}
+    \def\nonprefixing{\catcode`/=12 \let\pr@fix=F}
+}
+\def\arc#1{\mathop{\operator@font
+     arc\thinspace\escapechar-1 \string#1}\nolimits}
+\def\ar#1{\mathop{\operator@font
+     ar\thinspace\escapechar-1 \string#1}\nolimits}
+\def\tg{\mathop{\operator@font tg}\nolimits}
+\def\ctg{\mathop{\operator@font ctg}\nolimits}
+\def\tgh{\mathop{\operator@font tgh}\nolimits}
+\def\ctgh{\mathop{\operator@font ctgh}\nolimits}
+\def\PL@redef@funcnames{%
+  \let\tan=\tg     \let\ctan=\ctg
+  \let\tanh=\tgh   \let\ctanh=\ctgh
+  \def\arcsin{\arc\sin}
+  \def\arccos{\arc\cos}
+  \def\arctan{\arc\tg}
+  \def\arcctan{\arc\ctg}
+  }
+\def\dywiz{\kern0sp\discretionary{-}{-}{-}\penalty10000\hskip0sp\relax}
+\def\prefacename{Przedmowa}
+\def\refname{Bibliografia}
+\def\abstractname{Streszczenie}
+\def\bibname{Spis literatury}
+\def\chaptername{Rozdzia\PLSlash l} % uppercasing in running head must work
+\def\appendixname{Dodatek}
+\def\contentsname{Spis tre\'sci}
+\def\listfigurename{Spis rysunk\'ow}
+\def\listtablename{Spis tabel}
+\def\indexname{Skorowidz}
+\def\figurename{Rysunek}
+\def\tablename{Tabela}
+\def\partname{Cz\PLSlash e\'s\'c}
+\def\enclname{Za\l\PLSlash aczniki}
+\def\ccname{Do wiadomo\'sci}
+\def\headtoname{Do}
+\def\pagename{Strona}
+\def\seename{Por\'ownaj}
+\def\alsoname{Por\'ownaj tak\.ze}
+\def\PLdateending{\space roku}
+\def\today{\number\day~\ifcase\month\or
+  stycznia\or lutego\or marca\or kwietnia\or maja\or czerwca\or
+  lipca\or sierpnia\or wrze\'snia\or pa\'zdziernika\or
+  listopada\or grudnia\fi \space\number\year \PLdateending}
+\def\PL@setmaths{%
+    \def\PLm@ths{}
+    \@ifundefined{T@OT4}{%
+      \input ot4enc.def
+    }{}
+    \SetMathAlphabet{\mathbf}{normal}{OT4}{cmr}{bx}{n}
+    \SetMathAlphabet{\mathsf}{normal}{OT4}{cmss}{m}{n}
+    \SetMathAlphabet{\mathit}{normal}{OT4}{cmr}{m}{it}
+    \SetMathAlphabet{\mathtt}{normal}{OT4}{cmtt}{m}{n}
+    \SetMathAlphabet{\mathsf}{bold}{OT4}{cmss}{bx}{n}
+    \SetMathAlphabet{\mathit}{bold}{OT4}{cmr}{bx}{it}
+    \bgroup\let\@font@warning\@font@info
+    \SetSymbolFont{operators}   {normal}{OT4}{cmr} {m}{n}
+    \SetSymbolFont{letters}     {normal}{OML}{plm} {m}{it}
+    \SetSymbolFont{symbols}     {normal}{OMS}{plsy}{m}{n}
+    \SetSymbolFont{largesymbols}{normal}{OMX}{plex}{m}{n}
+    \SetSymbolFont{operators}   {bold}  {OT4}{cmr} {bx}{n}
+    \SetSymbolFont{letters}     {bold}  {OML}{plm} {b}{it}
+    \SetSymbolFont{symbols}     {bold}  {OMS}{plsy}{b}{n}
+    \egroup
+    \DeclareMathSymbol{\xleq}{3}{symbols}{172}
+    \DeclareMathSymbol{\xgeq}{3}{symbols}{173}
+}
+\def\PL@redef@relations{
+    \let\leq=\xleq
+    \let\geq=\xgeq
+    \let\le=\leq
+    \let\ge=\geq
+}
+\DeclareOption{plmath}{%
+    \PL@setmaths
+}
+\DeclareOption{nomathsymbols}{%
+    \def\PLn@m@thsn@mes{}
+}
+\DeclareOption{MeX}{%
+    \DeclareTextCommand{\=}{OT4}{\dywiz}
+    \DeclareTextAccent{\macron}{OT4}{22}
+    \let\xle\xleq
+    \let\xge\xgeq
+    \let\polish\l@polish
+    \let\english\l@english
+    \def\MeX{M\kern-.111em\lower.6ex\hbox{E}\kern-.075emX}
+    \DeclareRobustCommand\LaMeX{%   after latex.dtx
+        L\kern-.36em
+        {\setbox0\hbox{T}%
+         \vbox to\ht0{\hbox{%
+                            \csname S@\f@size\endcsname
+                            \fontsize\sf@size\z@
+                            \math@fontsfalse\selectfont
+                            A}
+                      \vss}%
+        }%
+        \kern-.15em
+        \MeX\@}%
+    }
+\DeclareOption{T1}{%
+    \def\encodingdefault{T1}\fontencoding{T1}\selectfont
+    \def\PL@ncodingd@fined{}
+}
+\DeclareOption{OT1}{%
+    \def\encodingdefault{OT1}\fontencoding{OT1}\selectfont
+    \def\PL@ncodingd@fined{}
+}
+\DeclareOption{OT4}{%
+    \@ifundefined{T@OT4}{%
+        \input ot4enc.def
+    }{}
+    \def\encodingdefault{OT4}
+    \fontencoding{OT4}\selectfont
+    \def\PL@ncodingd@fined{}
+}
+\ProcessOptions
+\frenchspacing
+\def\tempa{OT1}
+\ifx\tempa\f@encoding
+    \@ifundefined{PL@ncodingd@fined}{%
+        \IfFileExists{ot4cmr.fd}{%
+            \typeout{\space\space\space
+                Switching to Polish text encoding and Polish maths fonts.}
+            \@ifundefined{T@OT4}{%
+                \input ot4enc.def
+            }{}%
+            \def\encodingdefault{OT4}
+            \fontencoding{OT4}\selectfont
+            \PL@setmaths
+        }{%
+        \typeout{\space\space\space
+          Can't locate Polish fonts.  Will use default encoding.}
+        }%
+        \def\@PL@OT@check{%
+            \bgroup
+                \def\tempa{OT1}\ifx\tempa\cf@encoding
+                    \@ifpackageloaded{ot1patch}{}{%
+                        \PackageError{polski}{%
+Zaczynasz skladac dokument uzywajac oryginalnych\MessageBreak
+czcionek TeXa.  Czcionki te nie maja kompletu polskich\MessageBreak
+znakow.  W zwiazku z tym LaTeX bedzie zglaszal bledy.\MessageBreak
+\MessageBreak
+Zainstaluj czcionki z dystrybucji MeXa dostepne\MessageBreak
+na ftp://ftp.gust.org.pl, sprobuj uzyc czcionek EC\MessageBreak
+dodajac opcje T1 do wywolania stylu polski'ego\MessageBreak
+lub w ostatecznosci uzyj stylu ot1patch.}{}}%
+                \fi
+            \egroup
+            \let\@PL@OT@check=\undefined}%
+        \AtBeginDocument{\@PL@OT@check}%
+    }{%
+    \let\PL@ncodingd@fined=\undefined
+    }%
+\fi
+\@ifundefined{PLn@m@thsn@mes}{
+  \PL@redef@funcnames
+  \@ifundefined{PLm@ths}{}{\PL@redef@relations}
+  }{}
+\let\PLn@m@thn@mes=\undefined
+\let\PLm@ths=\undefined
+\let\PL@setmaths=\undefined
+\let\PL@redef@relations=\undefined
+\let\PL@redef@funcnames=\undefined
+\endinput
+%%
+%% End of file `polski.sty'.
