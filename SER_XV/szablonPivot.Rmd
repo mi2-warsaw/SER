@@ -1,0 +1,118 @@
+---
+title: "Supa Pivot Table"
+author: "Karol Kubicki"
+date: "14.01.2016"
+output:
+  html_document: default
+runtime: shiny
+---
+
+```{r, echo=FALSE}
+library(knitr)
+opts_chunk$set(message=FALSE, echo=FALSE)
+```
+
+```{r}
+library(shiny)
+library(rpivotTable)
+library(jsonlite)
+```
+
+```{r}
+dane <- read.csv("wyniki_algorytmow.csv", stringsAsFactors = FALSE)
+filtryPivot <- c( "exclusions", "rows", "cols", "vals", "aggregatorName", "rendererName")
+```
+
+```{r, eval=FALSE}
+# Parametry z url-a:
+renderUI({
+   #
+   # session$clientData jest klasy reactivevalue, stąd:
+   #  - musimy odczytywać go w rendererach
+   #  - rzutujemy go na listę (inaczej nie do końca zachowuje się jak lista)
+   #
+   ll <- as.list(session$clientData)
+   filtr <- c("url_protocol", "url_hostname", "url_port", "url_pathname", "url_search")
+   ll <- ll[filtr]
+   HTML(paste(names(ll), " = " , ll, collapse = "<br/>"))
+})
+```
+
+```{r}
+renderUI({
+   HTML(paste0(
+      '<a href="',
+      session$clientData$url_protocol,"//",
+      session$clientData$url_hostname, ":",
+      session$clientData$url_port,
+      session$clientData$url_pathname,"?",
+      URLencode( toJSON(input$parametryPivota[filtryPivot]) ),
+      '"> URL </a>'
+      ))
+})
+
+```
+
+
+```{r, eval=FALSE}
+# Parametry pivot-a:
+renderUI({
+   parametry <- input$parametryPivota[filtryPivot]
+   HTML(paste(names(parametry), " = ", parametry, collapse = "<br/>"))
+})
+
+```
+
+Filtry:
+```{r}
+renderUI({
+   filtry <- input$parametryPivota[["exclusions"]]
+   if (length(filtry)>0){
+      HTML(
+         paste0("<ul>",
+            paste("<li>", names(filtry), " != ", filtry,"</li>",  collapse = ""),
+            "<ul>"
+         )
+      )
+   } else{
+      HTML("BRAK FILTROW")
+   }
+})
+
+```
+
+Oto pivot:
+
+```{r}
+
+renderRpivotTable({
+   
+   inicjalne <- list(rows = "test",
+         cols = "data",
+         aggregatorName = "Sum over Sum",
+         vals = c("kliki", "odslony"),
+         rendererName = "Line Chart",
+         exclusions = list(urzadzenie = list("dumbfon", "smartfon"), kategoria = list("LatestNews", "ZawszeSmieszne"))
+   )
+   z_urla <- session$clientData$url_search
+   if(nchar(z_urla)>0){
+      z_urla <- fromJSON(URLdecode(substring(z_urla, 2)))
+      wspolne <- intersect(names(inicjalne), names(z_urla))
+      inicjalne[wspolne] <- NULL
+      inicjalne <- c(inicjalne, z_urla)
+   }
+   
+   inicjalne$exclusions <- lapply(inicjalne$exclusions, function(x) as.list(x))
+   
+   rpivotTable(dane,
+         rows = c(inicjalne$rows),
+         cols = c(inicjalne$cols),
+         aggregatorName = inicjalne$aggregatorName,
+         vals = inicjalne$vals,
+         rendererName = inicjalne$rendererName,
+         exclusions = inicjalne$exclusions,
+         onRefresh = htmlwidgets::JS("function(config) { Shiny.onInputChange('parametryPivota', config); }")
+      )
+})
+
+```
