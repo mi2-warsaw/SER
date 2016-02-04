@@ -1,7 +1,7 @@
-SER - The Warsaw R user group
-=============================
+Polish R user groups
+====================
 
-![ser](ser.png)
+![ser](ser2.png)
  
 
 The first meeting of R users in Poland took place in [Wroclaw in 2008](http://www.biecek.pl/WZUR2008/index.html). It was a one-day conference with 27 participants and 6 talks.
@@ -42,7 +42,10 @@ The key ingredient are speakers. So I just would like to sent thanks to our rece
 [Marek Gagolewski - the stringi package; Cezary Dendek - Shiny in buissness](https://github.com/mi2-warsaw/SER/blob/master/SER_II/)
 
 
-And I would like to thank our sponsors for they kind support (sometimes we get food and sometimes a good speaker):
+And we would like to thank our sponsors for they kind support (sometimes we get food and sometimes a good speaker):
 [Revolution Analytics](http://www.revolutionanalytics.com/) helps us since 2009!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/). 
+
+The community is large and have big dreams. This year (October 12-14) we are going to organize European R users meeting in Poznań. So be prepared to meet us!
+
 
 
