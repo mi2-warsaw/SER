@@ -17,7 +17,7 @@ Today, the most common formula for our meetings is: two short talks (around 30 m
 
 Among attenders there are students, some stuff (just few people) but majority of participants are graduates that are now working in data-oriented businesses. So 6pm is a good starting time since we can meet after work. We finish around 8pm – good time for after party.
 
-We have also tried hackatons (two in Warsaw, one in Cracow), which were pretty cool but such meetings require much more preparation and organization. Some of them result in interesting outcomes, like this diagram of [flow between parties in Poland in previous cadence of Sejm](http://smarterpoland.pl/index.php/2015/10/jak-poslowie-zmieniali-kluby/). And there is fun in working with completely new people, after few hours it turns out that you can easily collaborate and you have learned a lot.
+We have also tried hackatons (two in Warsaw, three in Cracow), which were pretty cool but such meetings require much more preparation and organization. Some of them result in interesting outcomes, like this diagram of [flow between parties in Poland in previous cadence of Sejm](http://smarterpoland.pl/index.php/2015/10/jak-poslowie-zmieniali-kluby/). And there is fun in working with completely new people, after few hours it turns out that you can easily collaborate and you have learned a lot.
 
 
 
