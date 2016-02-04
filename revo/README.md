@@ -29,22 +29,22 @@ After all I think that it is good to try different forms. It is interesting to s
 
 The key ingredients are of course speakers. So I just would like to send thanks to our recent roster.
 
-[Karol Kubicki - Magic with pivotTable; Paweł Cejrowski – The package elastic](https://github.com/mi2-warsaw/SER/tree/master/SER_XV)
-[Zawistowski Paweł - Machine learning in production; Kornel Kiełczewski - From idea to model, What Could Possibly Go Wrong?](https://github.com/mi2-warsaw/SER/tree/master/SER_XIV)
-[Markus Gesmann - Experience vs. Data; Emilia Kalarus - Non life insurance in R; Adam Wróbel - Stochastic mortality modelling](https://github.com/mi2-warsaw/SER/tree/master/SER_XIII)
-[Piotr Migdal - Jupiter; Adolfo Alvarez - 5 lessons I have learned at Analyx](https://github.com/mi2-warsaw/SER/tree/master/SER_XII)
-[Wit Jakuczun – The protector – how to protect R code](https://github.com/mi2-warsaw/SER/tree/master/SER_X)
-[Roger Bivand - Spatial data and R; Bartosz Meglicki - Machine learning and robotics](https://github.com/mi2-warsaw/SER/blob/master/SER_VII/)
-[Wit Jakuczun - R in production; Paweł Chudzian - SVM in action](https://github.com/mi2-warsaw/SER/blob/master/SER_V/)
-[Piotr Dittwald - R and genomic rearrangements; Filip Grotkowski - R, robots and intelligent warehouses](https://github.com/mi2-warsaw/SER/tree/master/SER_IV)
-[Piotr Przybyła - Text mining of Sejm RP; Bogumił Kamiński - Integration of R and localsolver](https://github.com/mi2-warsaw/SER/blob/master/SER_VI)
-[Tomasz Żółtek - R and psychometrics; Paweł Teisseyre - Multilabel classification](https://github.com/mi2-warsaw/SER/blob/master/SER_III)
-[Olga Mierzwa - price elasticity and the systemfit package; Teresa Ponikowska - R5 classes](https://github.com/mi2-warsaw/SER/blob/master/SER_VIII/)
-[Marek Gagolewski - the stringi package; Cezary Dendek - Shiny in buissness](https://github.com/mi2-warsaw/SER/blob/master/SER_II/)
+[Karol Kubicki - Magic with pivotTable; Paweł Cejrowski – The package elastic](https://github.com/mi2-warsaw/SER/tree/master/SER_XV);
+[Zawistowski Paweł - Machine learning in production; Kornel Kiełczewski - From idea to model, What Could Possibly Go Wrong?](https://github.com/mi2-warsaw/SER/tree/master/SER_XIV);
+[Markus Gesmann - Experience vs. Data; Emilia Kalarus - Non life insurance in R; Adam Wróbel - Stochastic mortality modelling](https://github.com/mi2-warsaw/SER/tree/master/SER_XIII);
+[Piotr Migdal - Jupiter; Adolfo Alvarez - 5 lessons I have learned at Analyx](https://github.com/mi2-warsaw/SER/tree/master/SER_XII);
+[Wit Jakuczun – The protector – how to protect R code](https://github.com/mi2-warsaw/SER/tree/master/SER_X);
+[Roger Bivand - Spatial data and R; Bartosz Meglicki - Machine learning and robotics](https://github.com/mi2-warsaw/SER/blob/master/SER_VII/);
+[Wit Jakuczun - R in production; Paweł Chudzian - SVM in action](https://github.com/mi2-warsaw/SER/blob/master/SER_V/);
+[Piotr Dittwald - R and genomic rearrangements; Filip Grotkowski - R, robots and intelligent warehouses](https://github.com/mi2-warsaw/SER/tree/master/SER_IV);
+[Piotr Przybyła - Text mining of Sejm RP; Bogumił Kamiński - Integration of R and localsolver](https://github.com/mi2-warsaw/SER/blob/master/SER_VI);
+[Tomasz Żółtek - R and psychometrics; Paweł Teisseyre - Multilabel classification](https://github.com/mi2-warsaw/SER/blob/master/SER_III);
+[Olga Mierzwa - price elasticity and the systemfit package; Teresa Ponikowska - R5 classes](https://github.com/mi2-warsaw/SER/blob/master/SER_VIII/);
+[Marek Gagolewski - the stringi package; Cezary Dendek - Shiny in buissness](https://github.com/mi2-warsaw/SER/blob/master/SER_II/);
 
 
 And we would like to thank our sponsors for they kind support (sometimes we get food and sometimes a good speaker):
-[Revolution Analytics](http://www.revolutionanalytics.com/) helps us since 2009!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/). 
+[Revolution Analytics](http://www.revolutionanalytics.com/) support us since 2009, now they are supporting all three groups!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/). 
 
 The community is large and has big dreams. This year (October 12-14) we are going to organize European R users meeting [eRum] in Poznań. So be prepared to meet us at eRum!
 
