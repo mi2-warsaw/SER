@@ -45,7 +45,7 @@ The key ingredient are speakers. So I just would like to sent thanks to our rece
 And we would like to thank our sponsors for they kind support (sometimes we get food and sometimes a good speaker):
 [Revolution Analytics](http://www.revolutionanalytics.com/) helps us since 2009!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/). 
 
-The community is large and have big dreams. This year (October 12-14) we are going to organize European R users meeting in Poznań. So be prepared to meet us!
+The community is large and has big dreams. This year (October 12-14) we are going to organize European R users meeting [eRum] in Poznań. So be prepared to meet us at eRum!
 
 
 
