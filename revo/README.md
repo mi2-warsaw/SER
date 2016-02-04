@@ -43,6 +43,6 @@ The key ingredient are speakers. So I just would like to sent thanks to our rece
 
 
 And I would like to thank our sponsors for they kind support (sometimes we get food and sometimes a good speaker):
-[Revolution Analytics](http://www.revolutionanalytics.com/); datahero.tech; [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/). 
+[Revolution Analytics](http://www.revolutionanalytics.com/); [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/). 
 
 
