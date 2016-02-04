@@ -17,7 +17,7 @@ Today, the most common formula for our meetings is: two short talks (around 30 m
 
 Among attenders there are students, some stuff (just few people) but majority of participants are graduates that are now working in data-oriented businesses. So 6pm is a good starting time since we can meet after work. We finish around 8pm – good time for after party.
 
-We have also tried hackatons (two in Warsaw, three in Cracow), which were pretty cool but such meetings require much more preparation and organization. Some of them result in interesting outcomes, like this diagram of [flow between parties in Poland in previous cadence of Sejm](http://smarterpoland.pl/index.php/2015/10/jak-poslowie-zmieniali-kluby/). And there is fun in working with completely new people, after few hours it turns out that you can easily collaborate and you have learned a lot.
+We have also tried hackatons (two in Warsaw, three in Cracow - [watch the promo](https://www.youtube.com/watch?v=fcdAwqaOpB8)), which were pretty cool but such meetings require much more preparation and organization. Some of them result in interesting outcomes, like this diagram of [flow between parties in Poland in previous cadence of Sejm](http://smarterpoland.pl/index.php/2015/10/jak-poslowie-zmieniali-kluby/). And there is fun in working with completely new people, after few hours it turns out that you can easily collaborate and you have learned a lot.
 
 
 
@@ -41,13 +41,17 @@ The key ingredients are of course speakers. So I just would like to send thanks 
 [Tomasz Żółtek - R and psychometrics; Paweł Teisseyre - Multilabel classification](https://github.com/mi2-warsaw/SER/blob/master/SER_III);
 [Olga Mierzwa - price elasticity and the systemfit package; Teresa Ponikowska - R5 classes](https://github.com/mi2-warsaw/SER/blob/master/SER_VIII/);
 [Marek Gagolewski - the stringi package; Cezary Dendek - Shiny in buissness](https://github.com/mi2-warsaw/SER/blob/master/SER_II/);
+[Krzysztof Misztal - The package CEC (Cross Entropy Clustering); Zygmunt Zawadzki – R optimization](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%231);
+[Piotr Ocalewicz - R and KNIME](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%233) ([video](https://www.youtube.com/watch?v=VXCu4KndjoQ));
+[Kamil Stanuch - Justin Bieber vs. The Beatles - text mining; Maciej Eder - The package Stylo (part 1)](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%234);
+[Ruprech von Waldenfels - Comparing the functional domain of linguistic elements across languages; Maciej Eder – The package Stylo (part 2)](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%235);
+[Jarosław Iwaniec - About hackathon. eRka and Onet.pl](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%236);
 
 
 And we would like to thank our sponsors for they kind support (sometimes we get food and sometimes a good speaker):
-[Revolution Analytics](http://www.revolutionanalytics.com/) support us since 2009, now they are supporting all three groups!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/). 
+[Revolution Analytics](http://www.revolutionanalytics.com/) support us since 2009, now they are supporting all three groups!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/); [INIME](http://inime.org/pl/); [Hub:raum](https://www.hubraum.com/locations/krakow); [KoalaMetrics](https://www.koalametrics.com/).
 
 The community is large and has big dreams. This year (October 12-14) we are going to organize European R users meeting [eRum] in Poznań. So be prepared to meet us at eRum!
-
 
 
 
