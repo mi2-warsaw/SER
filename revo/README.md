@@ -6,7 +6,7 @@ Polish R user groups
 
 The first meeting of R users in Poland took place in [Wroclaw in 2008](http://www.biecek.pl/WZUR2008/index.html). It was a one-day conference with 27 participants and 6 talks.
 
-Today we have three large groups of R users in main polish cities (according to meetup.com there is 640 users in [SER - Warsaw](http://meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/), 235 in [eRka - Cracow](http://www.meetup.com/Cracow-R-User-Group/) and  64 in [PAZUR - Poznań](http://www.meetup.com/Poznan-R-User-Group-PAZUR/)). And there are also some data science groups that are full of R users anyway (450 users in Wroclaw and 115 in Łódź).
+Today we have three large groups of R users in main polish cities (according to meetup.com there is 640 users in [SER - Warsaw](http://meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/), 235 in [eRka - Cracow](http://www.meetup.com/Cracow-R-User-Group/) and 64 in [PAZUR - Poznań](http://www.meetup.com/Poznan-R-User-Group-PAZUR/)). And there are also some data science groups that are full of R users anyway (450 users in Wroclaw and 115 in Łódź).
 
 We have tried different forms of meetings. Some of them were working some of them were not. Below I will try to summarize what we have learnt from them. 
 
@@ -45,11 +45,11 @@ The key ingredients are of course speakers. So I just would like to send thanks 
 [Piotr Ocalewicz - R and KNIME](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%233) ([video](https://www.youtube.com/watch?v=VXCu4KndjoQ));
 [Kamil Stanuch - Justin Bieber vs. The Beatles - text mining; Maciej Eder - The package Stylo (part 1)](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%234);
 [Ruprech von Waldenfels - Comparing the functional domain of linguistic elements across languages; Maciej Eder – The package Stylo (part 2)](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%235);
-[Jarosław Iwaniec - About hackathon. eRka and Onet.pl](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%236);
+[Jarosław Iwaniec - About hackathon. eRka and Onet.pl](https://github.com/eRkaKrakow/Cracow-R-Users-Meeting/tree/master/%236); [Maciej Beręsewicz - RcppArmadillo](https://bitbucket.org/BeresewiczM/pazur/src/aac67eb96f37949ce724582cdc314020e306529f/PAZUR%2013/prezentacja%20Macieja/?at=master); [Alicja Szabelska - ampliQueso](https://bitbucket.org/BeresewiczM/pazur/src/aac67eb96f37/PAZUR%2013/prezentacja%20Alicji/?at=master); [Jakub Nowosad - machine learning with caret](https://bitbucket.org/BeresewiczM/pazur/src/aac67eb96f37949ce724582cdc314020e306529f/PAZUR%2012/?at=master); [Paweł Kleka - Item response theory in R, Mikołaj Bogucki and Krzysztof Jędrzejewski - Performance analysis of assessment content in an English language learning product](https://bitbucket.org/BeresewiczM/pazur/src/aac67eb96f37949ce724582cdc314020e306529f/PAZUR%2011/?at=master); [Łukasz Smaga - Functional data, Tomasz Górecki - Profiling in R](https://bitbucket.org/BeresewiczM/pazur/src/aac67eb96f37949ce724582cdc314020e306529f/PAZUR%2010/?at=master); [Other presentation from 13 PAZUR meetings](https://bitbucket.org/BeresewiczM/pazur/src/aac67eb96f37?at=master)
 
 
 And we would like to thank our sponsors for they kind support (sometimes we get food and sometimes a good speaker):
-[Revolution Analytics](http://www.revolutionanalytics.com/) support us since 2009, now they are supporting all three groups!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/); [INIME](http://inime.org/pl/); [Hub:raum](https://www.hubraum.com/locations/krakow); [KoalaMetrics](https://www.koalametrics.com/).
+[Revolution Analytics](http://www.revolutionanalytics.com/) support us since 2009, now they are supporting all three groups!!!; [datahero.tech](http://datahero.tech); [SmarterPoland.pl](http://SmarterPoland.pl);  [WLOG Solutions](http://www.wlogsolutions.com);  [Codilime.com](Codilime.com); [Nationale-Nederlanden](www.nn.pl); [Triple A - Risk Finance](www.aaa-riskfinance.pl/); [INIME](http://inime.org/pl/); [Hub:raum](https://www.hubraum.com/locations/krakow); [KoalaMetrics](https://www.koalametrics.com/); [Analyx](http://www.analyx.com/en/).
 
 The community is large and has big dreams. This year (October 12-14) we are going to organize European R users meeting [eRum] in Poznań. So be prepared to meet us at eRum!
 
