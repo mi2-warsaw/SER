@@ -1,7 +1,7 @@
 Polish R user groups
 ====================
 
-![ser](ser3.jpg)
+<img src="https://raw.githubusercontent.com/mi2-warsaw/SER/master/revo/ser3.jpg"/>
 
 The first meeting of R users in Poland took place in [Wroclaw in 2008](http://www.biecek.pl/WZUR2008/index.html). It was a one-day conference with 27 participants and 6 talks.
 
