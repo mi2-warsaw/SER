@@ -5,7 +5,8 @@
 
 dr hab. Michał Ramsza z SGH z referatem ,,Proste wykorzystanie pakietów caret i nnet.'' 
 
-
+Prezentacja i prezentowane kody w R:
+https://github.com/mi2-warsaw/SER/tree/master/SER_XVI/nnet_caret
 
 -----
 
