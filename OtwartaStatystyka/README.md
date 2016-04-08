@@ -8,9 +8,11 @@
 
 # Otwarte inne materiały o R
 
+Pogromcy Danych, [Przetwarzanie danych, 2015](http://tofesi.mimuw.edu.pl/~cogito/PogromcyDanych/Pogromcy%20Danych%20Przetwarzanie%20danych%20w%20programie%20R%20-%20Przemyslaw%20Biecek%20Uniwersytet%20Warszawski.epub), [Wizualizacja i modelowanie, 2015](http://tofesi.mimuw.edu.pl/~cogito/PogromcyDanych/Pogromcy%20Danych%20Wizualizacja%20i%20modelowanie%20-%20Przemyslaw%20Biecek%20Uniwersytet%20Warszawski.epub)
 
 # Otwarte inne materiały o statystyce z R
 
+[Wybrane testy normalności, Przemysław Biecek, 2013](http://tofesi.mimuw.edu.pl/~cogito/smarterpoland/samouczki/testyNormalnosci/testyNormalnosci.pdf)
 
 # Półotwarte książki o R
 
