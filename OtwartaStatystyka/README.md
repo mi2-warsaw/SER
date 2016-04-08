@@ -12,6 +12,9 @@ Pogromcy Danych, [Przetwarzanie danych, 2015](http://tofesi.mimuw.edu.pl/~cogito
 
 # Otwarte inne materiały o statystyce z R
 
+[Optymalizacja liniowa z R, Krzysztof Trajkowski, 2014](http://biecek.pl/NaPrzelajPrzezDataMining/OptymalizacjaLiniowaKrzysztofTrajkowski.pdf)
+[Optymalizacja nieliniowa z R, Krzysztof Trajkowski, 2014](http://biecek.pl/NaPrzelajPrzezDataMining/OptymalizacjaNieliniowaKrzysztofTrajkowski.pdf)
+
 [Wybrane testy normalności, Przemysław Biecek, 2013](http://tofesi.mimuw.edu.pl/~cogito/smarterpoland/samouczki/testyNormalnosci/testyNormalnosci.pdf)
 
 # Półotwarte książki o R
