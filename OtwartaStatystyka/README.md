@@ -4,6 +4,7 @@
 
 # Otwarte książki o statystyce z R
 
+[Geostatystyka w R, Jakub Nowosad, 2016](https://bookdown.org/nowosad/Geostatystyka/)
 
 # Półotwarte książki o R
 
