@@ -18,6 +18,9 @@ Pogromcy Danych, [Przetwarzanie danych, 2015](http://tofesi.mimuw.edu.pl/~cogito
 
 [Wybrane testy normalności, Przemysław Biecek, 2013](http://tofesi.mimuw.edu.pl/~cogito/smarterpoland/samouczki/testyNormalnosci/testyNormalnosci.pdf)
 
+[Siedem wykładów wprowadzających do statystyki matematycznej, Ryszard Zieliński, 2004](http://wojtek.zielinski.statystyka.info/Moj_ojciec/public_html/7ALL.pdf) (nie jest o R, ale musiałem tutaj umieścić)
+
+
 # Półotwarte materiały
 
 Połowa [Przewodnika po pakiecie R, Przemysław Biecek, 2014](http://biecek.pl/R/PrzewodnikPoPakiecieRWydanieIIIinternet.pdf)
