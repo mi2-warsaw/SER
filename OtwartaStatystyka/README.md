@@ -6,6 +6,12 @@
 
 [Geostatystyka w R, Jakub Nowosad, 2016](https://bookdown.org/nowosad/Geostatystyka/)
 
+# Otwarte inne materiały o R
+
+
+# Otwarte inne materiały o statystyce z R
+
+
 # Półotwarte książki o R
 
 
