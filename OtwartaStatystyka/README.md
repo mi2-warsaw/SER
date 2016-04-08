@@ -1,4 +1,4 @@
-# Otwarte polskojęzyczne materiały o R
+# Bezpłatne polskojęzyczne materiały o R
 
 [Wprowadzenie do środowiska R, Łukasz Komsta, 2004](https://cran.r-project.org/doc/contrib/Komsta-Wprowadzenie.pdf)
 
@@ -8,7 +8,7 @@ Pogromcy Danych, [Przetwarzanie danych, 2015](http://tofesi.mimuw.edu.pl/~cogito
 
 [Krótkie wprowadzenie do R, Mikołaj Rybiński, 2011](http://www.mimuw.edu.pl/~trybik/edu/0809/rps/r-skrypt.pdf)
 
-# Otwarte polskojęzyczne materiały o statystyce z R
+# Bezpłatne polskojęzyczne materiały o statystyce z R
 
 [Geostatystyka w R, Jakub Nowosad, 2016](https://bookdown.org/nowosad/Geostatystyka/)
 
