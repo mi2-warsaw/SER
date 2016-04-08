@@ -1,5 +1,6 @@
 # Otwarte książki o R
 
+[Wprowadzenie do środowiska R, Łukasz Komsta, 2004](https://cran.r-project.org/doc/contrib/Komsta-Wprowadzenie.pdf)
 
 # Otwarte książki o statystyce z R
 
