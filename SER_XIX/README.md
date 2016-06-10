@@ -1,8 +1,6 @@
 Na czerwcowym wydarzeniu widzimy się po raz ostatni przed wakacjami. Swoją obecnością zaszczycą nas prelegenci z PwC z działu Data Analytics: Mateusz Łuczko oraz Piotr Bochnia. Obaj to absolwenci Matematyki na MIMUW. Na co dzień Data Crunchers zajmujący się uczeniem maszynowym. Opowiedzą o kilku zabawkach i udogodnieniach w pracy z danymi.
 
-######################## 
-Mateusz Łuczko
-######################## 
+# Mateusz Łuczko
 
 ### Bio:
 
@@ -13,10 +11,7 @@ Z wykształcenia matematyk i ekonomista. Z zamiłowania statystyk lubiący pogrz
 Drzewa decyzyjne były od zawsze atrakcyjną alternatywą dla różnego rodzaju modeli liniowych. Jednym z bardziej zaawansowanych przykładów ich użycia są modele GBRT/GBDT (Gradient Boosted Regression/Decision Trees), których implementacja w bibliotece XGBoost zyskała sobie ogromną popularność pośród data scientistów. Co było przyczyną tego faktu, jak użyć jej w zastosowaniach R-owych i czy da się to wszystko wytłumaczyć rodzicom – na te i inne pytania poszukam odpowiedzi podczas prezentacji.
 
 
-########################
-
-Piotr Bochnia
-######################## 
+# Piotr Bochnia
 
 ### Bio:
 
