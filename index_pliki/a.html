@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html><head>
+		<title>Warszawskie spotkania entuzjastów R - Spotkania Entuzjastów R</title><meta property="og:site_name" content="Warszawskie spotkania entuzjastów R">
+<meta property="og:title" content="Spotkania Entuzjastów R">
+<meta property="og:description" content="Spotkania Entuzjastów R mają na celu integracje środowiska użytkowników i entuzjastów analizy danych z użyciem programu R.">
+<meta property="og:image" content="http://spotkania-entuzjastow-r.weebly.com/uploads/3/2/2/9/32290495/681824454.png">
+<meta property="og:image" content="http://spotkania-entuzjastow-r.weebly.com/uploads/3/2/2/9/32290495/1435487443.png">
+<meta property="og:image" content="http://spotkania-entuzjastow-r.weebly.com/uploads/3/2/2/9/32290495/1465551703.png">
+<meta property="og:url" content="http://spotkania-entuzjastow-r.weebly.com/">
+
+<meta name="description" content="Spotkania Entuzjastów R mają na celu integracje środowiska użytkowników i entuzjastów analizy danych z użyciem programu R.">
+<meta name="keywords" content="R statistical software, spotkania entuzjastów R, spotkanie entuzjastów R, Warszawska grupa użytkowników R, Warsaw R User Group, warsztaty z programowania w R, hackathon R, serowe oferty pracy">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<meta name="google-site-verification" content="VptE46LyO_fPHsx0llb1u3SAiYrVsbCZvEM146LkN28">
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="a_data/sites.css">
+<link rel="stylesheet" type="text/css" href="a_data/fancybox.css">
+<link rel="stylesheet" type="text/css" href="a_data/social-icons.css" media="screen,projection">
+<link rel="stylesheet" type="text/css" href="a_data/main_style.css" title="wsite-theme-css">
+<link href="a_data/css_004.css" rel="stylesheet" type="text/css">
+<link href="a_data/css_002.css" rel="stylesheet" type="text/css">
+
+<link href="a_data/css_005.css" rel="stylesheet" type="text/css">
+<link href="a_data/css_005.css" rel="stylesheet" type="text/css">
+<link href="a_data/css_003.css" rel="stylesheet" type="text/css">
+<link href="a_data/css_005.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.wsite-elements.wsite-not-footer div.paragraph, .wsite-elements.wsite-not-footer p, .wsite-elements.wsite-not-footer .product-block .product-title, .wsite-elements.wsite-not-footer .product-description, .wsite-elements.wsite-not-footer .wsite-form-field label, .wsite-elements.wsite-not-footer .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Open Sans" !important;font-size:16px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {color:#818181 !important;}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer h2, .wsite-elements.wsite-not-footer .product-long .product-title, .wsite-elements.wsite-not-footer .product-large .product-title, .wsite-elements.wsite-not-footer .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Open Sans" !important;font-size:26px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline {font-family:"Actor" !important;color:#fff !important;line-height:6px !important;}
+.wsite-headline-paragraph {font-family:"Open Sans" !important;}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+</style>
+<style>
+.wsite-background {background-image: url("//cdn1.editmysite.com/uploads/3/2/2/9/32290495/background-images/1349875887.jpg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
+</style>
+		<script type="text/javascript" async="" src="a_data/quant.js"></script><script src="a_data/ga.js" async="" type="text/javascript"></script><script src="a_data/sp.js" async=""></script><script src="a_data/analytics.js" async=""></script><script><!--
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+//-->
+</script>
+<script src="a_data/jquery.js"></script>
+
+<script type="text/javascript" src="a_data/stl.js"></script>
+<script src="a_data/main.js"></script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="a_data/stl.js"></script><script> _W.themePlugins = [];</script><script type="text/javascript"><!--
+	
+	
+	(function(jQuery){
+		function initFlyouts(){
+			initPublishedFlyoutMenus(
+				[{"id":"548111149769242593","title":"Home","url":"index.html","target":"","nav_menu":false},{"id":"442119502962665297","title":"Wydarzenia","url":"wydarzenia.html","target":"","nav_menu":false},{"id":"834344255574119788","title":"Partnerzy","url":"partnerzy.html","target":"","nav_menu":false},{"id":"614072535287714125","title":"Zg&#322;o&#347; prezentacj&#281;","url":"zg322o347-prezentacj281.html","target":"","nav_menu":false}],
+				"548111149769242593",
+				'',
+				'active',
+				false,
+				{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nav_menu}}\n\t\t\thref=\"{{url}}\"\n\t\t{{\/nav_menu}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nav_menu}}\n\t\t\thref=\"{{url}}\"\n\t\t{{\/nav_menu}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+				{}
+			)
+		}
+		if (jQuery) {
+			jQuery(document).ready(function() { jQuery(initFlyouts); });
+		}else{
+			if (Prototype.Browser.IE) window.onload = initFlyouts;
+			else document.observe('dom:loaded', initFlyouts);
+		}
+	})(window._W && _W.jQuery)
+//-->
+</script>
+		
+		
+	<style type="text/css">#mc_embed_signup input.mce_inline_error { border-color:#6B0505; } #mc_embed_signup div.mce_inline_error { margin: 0 0 1em 0; padding: 5px 10px; background-color:#6B0505; font-weight: bold; z-index: 1; color:#fff; }</style></head>
+	<body class="landing-page  wsite-theme-light  wsite-page-index full-width-on postload"><div class="body-wrap">
+
+	<div id="header">
+		<div class="nav-trigger hamburger">
+			<div class="open-btn">
+				<span class="mobile"></span>
+				<span class="mobile"></span>
+				<span class="mobile"></span>
+			</div>
+		</div>
+		<div id="sitename"><span class="wsite-logo">
+
+	<a href="http://spotkania-entuzjastow-r.weebly.com/">
+	
+	<span id="wsite-title">Warszawskie spotkania entuzjastów R</span>
+	
+	</a>
+
+</span></div>
+	</div>
+
+	<div id="wrapper">
+		<div class="bg-wrapper">
+			<div id="navigation"><ul class="wsite-menu-default">
+		<li style="position: relative;" id="active" class="wsite-menu-item-wrap   wsite-nav-1">
+			<a style="position: relative;" href="http://spotkania-entuzjastow-r.weebly.com/" class="wsite-menu-item">
+				Home
+			</a>
+			
+		</li>
+		<li style="position: relative;" id="pg442119502962665297" class="wsite-menu-item-wrap   wsite-nav-2">
+			<a style="position: relative;" href="http://spotkania-entuzjastow-r.weebly.com/wydarzenia.html" class="wsite-menu-item">
+				Wydarzenia
+			</a>
+			
+		</li>
+		<li style="position: relative;" id="pg834344255574119788" class="wsite-menu-item-wrap   wsite-nav-3">
+			<a style="position: relative;" href="http://spotkania-entuzjastow-r.weebly.com/partnerzy.html" class="wsite-menu-item">
+				Partnerzy
+			</a>
+			
+		</li>
+		<li style="position: relative;" id="pg614072535287714125" class="wsite-menu-item-wrap   wsite-nav-4">
+			<a style="position: relative;" href="http://spotkania-entuzjastow-r.weebly.com/zg322o347-prezentacj281.html" class="wsite-menu-item">
+				Zgłoś prezentację
+			</a>
+			
+		</li>
+</ul>
+</div>
+			<div class="banner-wrap wsite-background wsite-custom-background">
+				<div id="banner">
+					<div id="banner-container">
+						<h2><span class="wsite-text wsite-headline">
+	<span id="selectionBoundary_1435486325988_034682424273341894" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span><font size="7">Spotkania Entuzjastów R</font><span id="selectionBoundary_1435486325988_41237861616536975" class="rangySelectionBoundary" style="line-height: 0; display: none;">﻿</span>
+</span></h2>
+						<p><span class="wsite-text wsite-headline-paragraph">
+	<font size="6">Warszawska grupa użytkowników R</font>
+</span></p>	
+						<div class="button-wrap"><div style="text-align:center;"><div style="height: 0px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-large wsite-button-highlight" href="http://spotkania-entuzjastow-r.weebly.com/zg322o347-prezentacj281.html">
+<span class="wsite-button-inner">zgłóś prezentację</span>
+</a>
+<div style="height: 0px; overflow: hidden;"></div></div></div>
+					</div>
+				</div>
+			</div>
+			<div id="content-wrapper">
+				<div id="content"><div id="wsite-content" class="wsite-elements wsite-not-footer">
+<div class="paragraph" style="text-align:center;"><font size="4"><span>Spotkania
+ Entuzjastów R (SERy) mają na celu integrację środowiska użytkowników i 
+entuzjastów analizy danych z użyciem programu R. Spotkania organizowane 
+są co miesiąc w czwartki w godzinach popołudniowych. Każde spotkanie 
+składa się z dwóch półgodzinnych prelekcji rozdzielonych półgodzinną 
+przerwą na spokojną dyskusję w kuluarach.&nbsp;</span><br><br>Udział w spotkaniach jest bezpłatny, wymagana jest jednak wcześniejsza rejestracja.&nbsp;<br><br>Zapraszamy nowicjuszy i weteranów, każdy znajdzie coś dla siebie!</font><br><br></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 20px;">
+					
+						
+
+<h2 class="wsite-content-title" style="text-align:left;"><a target="_blank" href="http://erum.ue.poznan.pl/">European R Users Meeting 12-14.10.2016 Poznań</a><br></h2>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:center">
+<a>
+<img src="a_data/681824454.png" alt="Obraz" style="width:auto;max-width:100%">
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div style="text-align:left;"><div style="height: 10px; overflow: hidden;"></div>
+<a class="wsite-button wsite-button-small wsite-button-normal" href="http://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/" target="_blank">
+<span class="wsite-button-inner">Kalendarz spotkań na Meetup</span>
+</a>
+<div style="height: 10px; overflow: hidden;"></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 20px;">
+					
+						
+
+<div><div class="wsite-image wsite-image-border-border-width:0 " style="padding-top:0;padding-bottom:10px;margin-left:0;margin-right:0;text-align:left">
+<a>
+<img src="a_data/1435487443.png" alt="Picture" style="width:auto;max-width:100%">
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div><div class="wsite-image wsite-image-border-border-width:0 " style="padding-top:0;padding-bottom:10px;margin-left:0;margin-right:0;text-align:right">
+<a>
+<img src="a_data/1465551703.png" alt="Picture" style="width:auto;max-width:100%">
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 40px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div style="height: 40px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -20px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 20px;">
+					
+						
+
+<div class="wsite-map"><iframe allowtransparency="true" scrolling="no" style="width: 100%; height: 250px; margin-top: 10px; margin-bottom: 15px;" src="//www.weebly.com/weebly/apps/generateMap.php?map=google&amp;elementid=281858931865543120&amp;ineditor=0&amp;control=3&amp;width=auto&amp;height=250px&amp;overviewmap=0&amp;scalecontrol=0&amp;typecontrol=0&amp;zoom=15&amp;long=21.00728079999999&amp;lat=52.2222253&amp;domain=www&amp;point=1&amp;align=1&amp;reseller=false" frameborder="0"></iframe></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 20px;">
+					
+						
+
+<h2 class="wsite-content-title" style="text-align:left;"><font size="5">Lokalizacja spotkań</font></h2>
+
+<div class="paragraph" style="text-align:left;">MiNI Politechnika Warszawska<br>Koszykowa 75<br>Warszawa<span style=""><br></span></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 40px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:left;">Oferty p[R]acy</h2>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div><div id="997461490217679110" style="width: 100%; overflow-y: hidden;" class="wcustomhtml" align="left"><!-- Begin MailChimp Signup Form -->
+<link href="a_data/classic-081711.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+<div id="mc_embed_signup">
+<form action="//meetup.us11.list-manage.com/subscribe/post?u=75b933c283f714432c9c3287f&amp;id=6ca95c2f93" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="novalidate">
+    <div id="mc_embed_signup_scroll">
+	<h2>Zapisz się na listę</h2>
+<div class="indicates-required"><span class="asterisk">*</span> wymagane pole</div>
+<div class="mc-field-group">
+	<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+</label>
+	<input aria-required="true" name="EMAIL" class="required email" id="mce-EMAIL" type="email">
+</div>
+<div class="mc-field-group input-group">
+    <strong>Jaki typ ofert Cię interesuje </strong>
+    <ul><li><input value="1" name="group[4369][1]" id="mce-group[4369]-4369-0" type="checkbox"><label for="mce-group[4369]-4369-0">oferty praktyk</label></li>
+<li><input value="2" name="group[4369][2]" id="mce-group[4369]-4369-1" type="checkbox"><label for="mce-group[4369]-4369-1">oferty pracy</label></li>
+<li><input value="4" name="group[4369][4]" id="mce-group[4369]-4369-2" type="checkbox"><label for="mce-group[4369]-4369-2">wszystko</label></li>
+</ul>
+</div>
+	<div id="mce-responses" class="clear">
+		<div class="response" id="mce-error-response" style="display:none"></div>
+		<div class="response" id="mce-success-response" style="display:none"></div>
+	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;"><input name="b_75b933c283f714432c9c3287f_6ca95c2f93" tabindex="-1" type="text"></div>
+<div class="clear">
+<a class="wsite-button wsite-button-small wsite-button-normal" href="javascript:{}" onclick="document.getElementById('mc-embedded-subscribe-form').submit();">
+<span class="wsite-button-inner">Zapisz się</span>
+</a>
+</div>
+    </div>
+</form>
+</div>
+<script type="text/javascript" src="a_data/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup--></div>
+
+
+
+</div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;">W czerwcu 2015 
+uruchomiliśmy listę mailingową z ofertami pracy i staży dla badaczy, 
+entuzjastów R i analityków. Aby zapisać się na listę mailingową należy 
+wypełnić formularz znajdujący się po lewej stronie.&nbsp;Lista 
+obsługiwana jest przez serwis MailChimp, kliknięcie przycisku 
+‚subscribe’ otworzy stronę z potwierdzeniem adresu email.&nbsp;<br><br><br>Dane
+ osób zapisanych na listę nie będą udostępniane osobą trzecim i 
+wykorzystane zostaną jedynie do dystrybucji ofert pracy i staży.</div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div><div style="height: 40px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;">
+<div style="height: 40px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:left;"><span style="font-weight: normal;">Kontakt</span></h2>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:33.838383838384%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;">Przemysław Biecek<br></div>
+
+<div style="text-align:left;"><div style="height:0px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class="first-child wsite-social-item wsite-social-linkedin" href="https://pl.linkedin.com/pub/przemyslaw-biecek/" target="_blank"><span class="wsite-social-item-inner"></span></a><a class="last-child wsite-social-item wsite-social-mail" href="mailto:Przemyslaw.Biecek@gmail.com" target="_blank"><span class="wsite-social-item-inner"></span></a></span>
+<div style="height:0px;overflow:hidden"></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:66.161616161616%; padding:0 15px;">
+					
+						
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;">Olga Mierzwa</div>
+
+<div style="text-align:left;"><div style="height:0px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class="first-child wsite-social-item wsite-social-linkedin" href="https://pl.linkedin.com/pub/olga-mierzwa/" target="_blank"><span class="wsite-social-item-inner"></span></a><a class="last-child wsite-social-item wsite-social-mail" href="mailto:olga.mierzwa@gmail.com" target="_blank"><span class="wsite-social-item-inner"></span></a></span>
+<div style="height:0px;overflow:hidden"></div></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:left;">Marcin Kosiński</div>
+
+<div style="text-align:left;"><div style="height:0px;overflow:hidden"></div>
+<span class="wsite-social wsite-social-default"><a class="first-child wsite-social-item wsite-social-facebook" href="https://www.facebook.com/DataFortuneTelling" target="_blank"><span class="wsite-social-item-inner"></span></a><a class="wsite-social-item wsite-social-twitter" href="http://twitter.com/kosinski_rblog" target="_blank"><span class="wsite-social-item-inner"></span></a><a class="wsite-social-item wsite-social-linkedin" href="https://pl.linkedin.com/pub/marcin-kosi%C5%84ski/ab/35a/814" target="_blank"><span class="wsite-social-item-inner"></span></a><a class="wsite-social-item wsite-social-mail" href="mailto:m.p.kosinski@gmail.com" target="_blank"><span class="wsite-social-item-inner"></span></a><a class="last-child wsite-social-item wsite-social-rss" href="http://r-addict.com/" target="_blank"><span class="wsite-social-item-inner"></span></a></span>
+<div style="height:0px;overflow:hidden"></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div></div>
+</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="footer-content">
+
+<link rel="stylesheet" type="text/css" href="a_data/css.css">
+<style>
+	@font-face {
+		font-family: 'wicons';
+		src: url(//cdn2.editmysite.com/fonts/wIcons/wicons.eot?buildTime=1466028486);
+		src: url(//cdn2.editmysite.com/fonts/wIcons/wicons.eot?buildTime=1466028486#iefix) format('embedded-opentype'),
+				 url(//cdn2.editmysite.com/fonts/wIcons/wicons.woff?buildTime=1466028486) format('woff'),
+				 url(//cdn2.editmysite.com/fonts/wIcons/wicons.ttf?buildTime=1466028486) format('truetype'),
+				 url(//cdn2.editmysite.com/fonts/wIcons/wicons.svg?buildTime=1466028486#wicons) format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	/* Hack to smooth out font rendering on Chrome for Windows */
+	@media screen and (-webkit-min-device-pixel-ratio: 0) {
+		@font-face {
+			font-family: 'wicons';
+			src: url(//cdn2.editmysite.com/fonts/wIcons/wicons.svg?buildTime=1466028486#wicons) format('svg');
+		}
+	}
+
+	@font-face {
+		font-family: 'wsocial';
+		src: url(//cdn2.editmysite.com/fonts/wSocial/wsocial.eot?buildTime=1466028486);
+		src: url(//cdn2.editmysite.com/fonts/wSocial/wsocial.eot?buildTime=1466028486#iefix) format('embedded-opentype'),
+				 url(//cdn2.editmysite.com/fonts/wSocial/wsocial.woff?buildTime=1466028486) format('woff'),
+				 url(//cdn2.editmysite.com/fonts/wSocial/wsocial.ttf?buildTime=1466028486) format('truetype'),
+				 url(//cdn2.editmysite.com/fonts/wSocial/wsocial.svg?buildTime=1466028486#wsocial) format('svg');
+		font-weight: normal;
+		font-style: normal;
+	}
+	/* Hack to smooth out font rendering on Chrome for Windows */
+	@media screen and (-webkit-min-device-pixel-ratio: 0) {
+		@font-face {
+			font-family: 'wsocial';
+			src: url(//cdn2.editmysite.com/fonts/wSocial/wsocial.svg?buildTime=1466028486#wsocial) format('svg');
+		}
+	}
+</style>
+
+<script type="text/javascript" src="a_data/footerSignup.js"></script>
+<script type="text/javascript">
+	var script;
+	if (typeof Weebly == 'undefined') {
+		Weebly = {};
+	}
+	if (!Weebly.jQuery) {
+		script = document.createElement('script');
+		script.onload = function() {
+			Weebly.jQuery = jQuery.noConflict(true);
+			Weebly.footer.setupContainer(Weebly.jQuery, 'cdn2.editmysite.com', '1466028486', 'www.weebly.com');
+		};
+		script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js';
+		document.head.appendChild(script);
+	} else {
+		Weebly.footer.setupContainer(Weebly.jQuery, 'cdn2.editmysite.com', '1466028486', 'www.weebly.com');
+	}
+</script><div style="height: 58px; left: -570.283px; top: 55.9167px; width: 2056px;" class="light" id="weebly-footer-signup-container">
+	<div class="signup-container-header">
+		<div class="start-free">Create a <a class="link" href="http://www.weebly.com/?utm_source=internal&amp;utm_medium=footer&amp;utm_campaign=3" target="_blank">free website</a></div>
+		<div class="expand-icon"></div>
+		<div class="powered-by"><span>Powered by</span> <a class="link weebly-icon" href="http://www.weebly.com/?utm_source=internal&amp;utm_medium=footer&amp;utm_campaign=3" target="_blank" rel="nofollow"></a></div>
+
+		<div class="short-text">
+			<span>Create your own free website</span><span class="go-icon"></span>
+		</div>
+	</div>
+	<div class="signup-container-content">
+		<h2 class="headline">Zacznij własną bezpłatną witrynę internetową.</h2>
+		<div class="description">A surprisingly easy drag &amp; drop site creator. <a class="thin-underline" href="http://www.weebly.com/?utm_source=internal&amp;utm_medium=footer&amp;utm_campaign=3" target="_blank" rel="nofollow">Learn more.</a></div>
+		<iframe id="weebly-footer-signup-iframe" src="a_data/footer_signup.html" allowtransparency="true" frameborder="0"></iframe>
+	</div>
+</div>
+</div>
+		</div>
+	</div>
+
+	<div class="navmobile-wrapper">
+		<div id="navmobile" class="nav"><div style="display: block;" class="wsite-mobile-menu"><div style="position: relative; height: 100%;" class="wsite-animation-wrap"><ul style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" class="wsite-menu-default wsite-menu-slide">
+		<li id="active" class="wsite-menu-item-wrap">
+			<a href="http://spotkania-entuzjastow-r.weebly.com/" class="wsite-menu-item">
+				Home
+			</a>
+			
+		</li>
+		<li id="pg442119502962665297" class="wsite-menu-item-wrap">
+			<a href="http://spotkania-entuzjastow-r.weebly.com/wydarzenia.html" class="wsite-menu-item">
+				Wydarzenia
+			</a>
+			
+		</li>
+		<li id="pg834344255574119788" class="wsite-menu-item-wrap">
+			<a href="http://spotkania-entuzjastow-r.weebly.com/partnerzy.html" class="wsite-menu-item">
+				Partnerzy
+			</a>
+			
+		</li>
+		<li id="pg614072535287714125" class="wsite-menu-item-wrap">
+			<a href="http://spotkania-entuzjastow-r.weebly.com/zg322o347-prezentacj281.html" class="wsite-menu-item">
+				Zgłoś prezentację
+			</a>
+			
+		</li>
+</ul></div></div>
+</div>
+	</div>
+
+</div>
+
+
+<script language="javascript" src="a_data/plugins.js"></script>	 
+<script language="javascript" src="a_data/custom.js"></script>
+<script language="javascript" src="a_data/mobile.js"></script>	
+
+
+		<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-7870337-1']);
+	_gaq.push(['_setDomainName', 'none']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_trackPageview']);
+
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-0dYLvhSGGqUWo",
+labels:"l0,u32290495.u32290495s441473336180032939"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-0dYLvhSGGqUWo.gif?labels=l0,u32290495.u32290495s441473336180032939" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+
+
+<script>
+
+	(function(jQuery) {
+		try {
+			if (jQuery) {
+				jQuery('div.blog-social div.fb-like').attr('class', 'blog-social-item blog-fb-like');
+				var $commentFrame = jQuery('#commentArea iframe');
+				if ($commentFrame.length > 0) {
+					var frameHeight = jQuery($commentFrame[0].contentWindow.document).height() + 50;
+					$commentFrame.css('min-height', frameHeight + 'px');
+				}
+				if (jQuery('.product-button').length > 0){
+					jQuery(document).ready(function(){
+						jQuery('.product-button').parent().each(function(index, product){
+							if(jQuery(product).attr('target') == 'paypal'){
+								if (!jQuery(product).find('> [name="bn"]').length){
+									jQuery('<input>').attr({
+										type: 'hidden',
+										name: 'bn',
+										value: 'DragAndDropBuil_SP_EC'
+									}).appendTo(product);
+								}
+							}
+						});
+					});
+				}
+			}
+			else {
+				// Prototype
+				$$('div.blog-social div.fb-like').each(function(div) {
+					div.className = 'blog-social-item blog-fb-like';
+				});
+				$$('#commentArea iframe').each(function(iframe) {
+					iframe.style.minHeight = '410px';
+				});
+			}
+		}
+		catch(ex) {}
+	})(window._W && _W.jQuery);
+
+</script>
+<div id="eu-cookie" class="notification" style="display: none;">
+	<span id="eu-cookie-content"></span>
+	<span id="eu-cookie-close">✕</span>
+</div>
+
+<script type="text/javascript">
+	(function($) {
+		var cookie_location = '';
+
+		// this cookie_content should already be pre-encoded from CookieSettingView.js
+		var cookie_content = '' || _W.stl('templates.publish.virtual-includes.footerCode_1');
+
+		if (!_W.getCookie('441473336180032939_cookie_policy') || (_W.getCookie('441473336180032939_cookie_policy') !== cookie_content)){
+			if (cookie_location === 'top' || cookie_location === 'bottom'){
+				$('#eu-cookie-content').text(decodeURIComponent(cookie_content));
+				(cookie_location === 'top') ? animateFromTop() : animateFromBottom();
+				$('#eu-cookie').show();
+			}
+		}
+
+		$('#eu-cookie-close').click(function(){
+			_W.setCookie('441473336180032939_cookie_policy', cookie_content, 100000);
+			$('#eu-cookie').hide();
+		});
+
+		function animateFromTop(){
+			$('#eu-cookie').css({
+				'top': '0px',
+				'animation': 'reveal-top 1 2s'
+			});
+		}
+
+		function animateFromBottom(){
+			$('#eu-cookie').css({
+				'bottom': '0px',
+				'animation': 'reveal-bottom 1 2s'
+			});
+		}
+	})(window._W && _W.jQuery);
+
+</script>
+
+
+	
+
+<div id="wsite-menus"></div></body></html>
