@@ -2,4 +2,4 @@
 
 http://www.meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/
 
-http://spotkania-entuzjastow-r.pl/
+Nasza strona: http://mi2-warsaw.github.io/SER/
