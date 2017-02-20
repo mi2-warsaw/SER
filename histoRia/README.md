@@ -28,6 +28,7 @@ W kolejnosci powstania
 * SER - od 2014 http://meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/
 * eRka - od 2014 http://www.erkakrakow.pl/
 * RGUR - od 2016 http://www.wais.kamil.rzeszow.pl/rzeszowska-grupa-uzytkownikow-r/
+* R-Ladies od 2016 https://www.facebook.com/RLadiesWarsaw/
 * STWUR - od 2017 https://www.meetup.com/Wroclaw-R-Users-Group/
 * trigeR - od 2017 https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/ 
 
