@@ -42,6 +42,12 @@ W kolejnosci organizacji
 * eRum - 2016 http://erum.ue.poznan.pl/ 
 * WhyR - 2017 http://whyr.pl/ 
 
+### Maratony analizy danych
+
+* Maraton Zespołowej Analizy Danych - maj 2015 - Warszawa
+* Wakacyjny Maraton Analizy Danych - lipiec 2015 - Kraków
+* Maraton Analizy Danych (eRka i Onet.pl) - listopad 2016 - Kraków
+
 ## Polskie książki o R
 
 W kolejności publikacji
