@@ -2,34 +2,39 @@
 
 ## R w zastosowaniach
 
-* Mapy ICM meteo http://www.meteo.pl/ 2006 Malgorzata Melonek
+* Mapy ICM meteo http://www.meteo.pl/ 2006-2014 Malgorzata Melonek
 
 
 ## R w edukacji
 
 W podziale na uczelnie
 
-* Na IM PWr przedmiot ,,Data Mining'' od 2003 Adam Zagdański, Artur Suchwałko (nie ma R w tytule ale laby były oparte o R, nawet prowadziłem jedną grupę PBi)
+* Na IM PWr przedmiot ,,Data Mining'' od 2003 Adam Zagdański, Artur Suchwałko (nie ma R w tytule ale laby były oparte o R)
 * Na MIM UW przedmiot ,,Programowanie w R i SAS''  od 2010 do 2012 Przemysław Biecek, od 2016 przedmiot nazywa się ,,Programowanie i wizualizacja danych w R''
-* Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek od 2013 Marek Gągolewski
+* Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek, od 2013 Marek Gągolewski
 
 
 
 ## Polskie konferencje / spotkania
 
-Spotkania w kolejnosci powstania
+### Spotkania 
 
-* WZUR - od 2008 do 2012 http://biecek.pl/WZUR/
+W kolejnosci powstania
+
+* WZUR - od 2011 do 2012 - lokalne spotkania
 * PAZUR - od 2013 https://www.meetup.com/Poznan-R-User-Group-PAZUR/
 * SER - od 2014 http://meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/
 * eRka - od 2014 http://www.erkakrakow.pl/
 * STWUR - od 2016 https://www.meetup.com/Wroclaw-R-Users-Group/
 
-Konferencje
+### Konferencje
 
-* PAZUR  2015
+W kolejnosci organizacji
+
+* WZUR - 2008, 2009, 2010 http://biecek.pl/WZUR/ - coroczne konferencje
+* PAZUR 2015
 * eRum http://erum.ue.poznan.pl/ 2016
-* WhyR 2017 http://whyr.pl/
+* WhyR http://whyr.pl/ 2017
 
 ## Polskie książki o R
 
