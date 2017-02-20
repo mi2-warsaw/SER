@@ -27,7 +27,10 @@ W kolejnosci powstania
 * PAZUR - od 2013 https://www.meetup.com/Poznan-R-User-Group-PAZUR/
 * SER - od 2014 http://meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/
 * eRka - od 2014 http://www.erkakrakow.pl/
-* STWUR - od 2016 https://www.meetup.com/Wroclaw-R-Users-Group/
+* RGUR - od 2016 http://www.wais.kamil.rzeszow.pl/rzeszowska-grupa-uzytkownikow-r/
+* STWUR - od 2017 https://www.meetup.com/Wroclaw-R-Users-Group/
+* trigeR - od 2017 https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/ 
+
 
 ### Konferencje
 
