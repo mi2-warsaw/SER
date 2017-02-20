@@ -32,7 +32,7 @@ W kolejnosci powstania
 W kolejnosci organizacji
 
 * WZUR - 2008, 2009, 2010 http://biecek.pl/WZUR/ - coroczne konferencje
-* PAZUR 2015
+* PAZUR 2014
 * eRum http://erum.ue.poznan.pl/ 2016
 * WhyR http://whyr.pl/ 2017
 
