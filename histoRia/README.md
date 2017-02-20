@@ -1,5 +1,7 @@
 # histoRia - o początkach R w Polsce
 
+![histoRia](histoRia.png)
+
 ## R w zastosowaniach
 
 * Mapy ICM meteo http://www.meteo.pl/ 2006-2014 Malgorzata Melonek
