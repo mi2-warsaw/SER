@@ -32,7 +32,6 @@ W kolejnosci powstania
 * STWUR - od 2017 https://www.meetup.com/Wroclaw-R-Users-Group/
 * trigeR - od 2017 https://www.meetup.com/Trojmiejska-Grupa-Entuzjastow-R/ 
 
-
 ### Konferencje
 
 W kolejnosci organizacji
@@ -67,3 +66,5 @@ W kolejności publikacji
 * Wstęp do statystyki odpornej. Kurs z wykorzystaniem środowiska R, 2012, Daniel Kosiorowski
 * Programowanie w języku R. Analiza danych, obliczenia, symulacje. Autor: Marek Gągolewski, Wydawnictwo Naukowe PWN 2014 (wydanie pierwsze), 2016 (wydanie drugie poszerzone), 
 * Adam Zagdański, Artur Suchwałko: Analiza i prognozowanie szeregów czasowych : praktyczne wprowadzenie na podstawie środowiska R. Warszawa: Wydawnictwo Naukowe PWN, 2016. 
+* Nowosad, Jakub. 2016. “Geostatystyka W R.” https://bookdown.org/nowosad/Geostatystyka/.
+
