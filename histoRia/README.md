@@ -5,7 +5,7 @@
 ## R w zastosowaniach
 
 * Mapy ICM meteo http://www.meteo.pl/ 2006-2014 Malgorzata Melonek
-
+* Wskaźniki edukacyjnej wartości dodanej (EWD) od 2010 r Tomasz Żółtak i zespół. W latach 2014-2015 powstała docelowa implementacja procesu obliczania tych wskaźników, a także zapewniania dostępu do nich, z wykorzystaniem pakietów R (p. http://ewd.edu.pl/wp-content/uploads/2014/12/poster-id-201513-00544.pdf).
 
 ## R w edukacji
 
