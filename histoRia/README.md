@@ -14,7 +14,7 @@ W podziale na uczelnie
 * Na IM PWr przedmiot ,,Data Mining'' od 2003 Adam Zagdański, Artur Suchwałko (nie ma R w tytule ale laby były oparte o R)
 * Na MIM UW przedmiot ,,Programowanie w R i SAS''  od 2010 do 2012 Przemysław Biecek, od 2016 przedmiot nazywa się ,,Programowanie i wizualizacja danych w R''
 * Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek, od 2013 Marek Gągolewski
-
+* Na Socjologia UW ,,Analiza sieci społecznych - warsztaty'' 2006 - 2008
 
 
 ## Polskie konferencje / spotkania
