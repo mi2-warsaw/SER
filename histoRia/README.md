@@ -46,7 +46,7 @@ W kolejnosci organizacji
 
 * Maraton Zespołowej Analizy Danych - maj 2015 - Warszawa
 * Wakacyjny Maraton Analizy Danych - lipiec 2015 - Kraków
-* Maraton Analizy Danych (eRka i Onet.pl) - listopad 2016 - Kraków
+* Maraton Analizy Danych (eRka i Onet.pl) - listopad 2015 - Kraków
 
 ## Polskie książki o R
 
