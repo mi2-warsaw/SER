@@ -15,6 +15,7 @@ W podziale na uczelnie
 * Na MIM UW przedmiot ,,Programowanie w R i SAS''  od 2010 do 2012 Przemysław Biecek, od 2016 przedmiot nazywa się ,,Programowanie i wizualizacja danych w R''
 * Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek, od 2013 Marek Gągolewski
 * Na Socjologia UW ,,Analiza sieci społecznych - warsztaty'' 2006 - 2008 (R oraz inne programy)
+* Na Wydziale Informatyki i Gospodarki Elektronicznej Uniwersytetu Ekonomicznego w Poznaniu -- Przedmioty: Statystyka Matematyczna (2008/2009, dr Marcin Szymkowiak), Wizualizacja i Raportowanie Danych Statystycznych, Real Estate Market Analysis, Geomarketing, Nieklasyczne Metody Analizy Danych w Biznesie, Pakiety Statystyczne (Marcin Szymkowiak, Maciej Beręsewicz), Programowanie w R (Paweł Kliber).
 
 
 ## Polskie konferencje / spotkania
@@ -24,7 +25,7 @@ W podziale na uczelnie
 W kolejnosci powstania
 
 * WZUR - od 2011 do 2012 - lokalne spotkania
-* PAZUR - od 2013 https://www.meetup.com/Poznan-R-User-Group-PAZUR/
+* PAZUR - od 2012 https://www.meetup.com/Poznan-R-User-Group-PAZUR/
 * SER - od 2014 http://meetup.com/Spotkania-Entuzjastow-R-Warsaw-R-Users-Group-Meetup/
 * eRka - od 2014 http://www.erkakrakow.pl/
 * RGUR - od 2016 http://www.wais.kamil.rzeszow.pl/rzeszowska-grupa-uzytkownikow-r/
@@ -37,8 +38,8 @@ W kolejnosci powstania
 W kolejnosci organizacji
 
 * WZUR - 2008, 2009, 2010 http://biecek.pl/WZUR/ - coroczne konferencje
-* PAZUR - 2014 http://www.estymator.ue.poznan.pl/pazur/
-* eRum - 2016 http://erum.ue.poznan.pl/ 
+* Polski Akademicki Zlot Użytkowników R (PAZUR) - 2014 http://www.estymator.ue.poznan.pl/pazur/
+* European R Users Meeting (eRum) - 2016 http://erum.ue.poznan.pl/ 
 * WhyR - 2017 http://whyr.pl/ 
 
 ### Maratony analizy danych
