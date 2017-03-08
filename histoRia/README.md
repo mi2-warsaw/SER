@@ -68,4 +68,5 @@ W kolejności publikacji
 * Programowanie w języku R. Analiza danych, obliczenia, symulacje. Autor: Marek Gągolewski, Wydawnictwo Naukowe PWN 2014 (wydanie pierwsze), 2016 (wydanie drugie poszerzone), 
 * Adam Zagdański, Artur Suchwałko: Analiza i prognozowanie szeregów czasowych : praktyczne wprowadzenie na podstawie środowiska R. Warszawa: Wydawnictwo Naukowe PWN, 2016. 
 * Nowosad, Jakub. 2016. “Geostatystyka W R.” https://bookdown.org/nowosad/Geostatystyka/.
+* Żądło, T. (2008), Elementy statystyki małych obszarów z programem R, [LINK](http://www.ue.katowice.pl/jednostki/wydawnictwo/oferta-wydawnicza/podreczniki/zadlo-t-elementy-statystyki-malych-obszarow-z-programem-r-2008.html)
 
