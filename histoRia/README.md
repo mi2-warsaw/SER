@@ -2,6 +2,10 @@
 
 ![histoRia](histoRia.png)
 
+## Prezentacja z Trzecich Urodzin SER
+
+[SER_Trzecie_Urodziny](https://github.com/mi2-warsaw/SER/blob/master/histoRia/SER_Trzecie_Urodziny.pdf)
+
 ## R w zastosowaniach
 
 * Mapy ICM meteo http://www.meteo.pl/ 2006-2014 Malgorzata Melonek
