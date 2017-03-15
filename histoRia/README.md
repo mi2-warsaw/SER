@@ -13,13 +13,13 @@
 
 ## R w edukacji
 
-W podziale na uczelnie
+W podziale na wydziały
 
 * Na IM PWr przedmiot ,,Data Mining'' od 2003 Adam Zagdański, Artur Suchwałko (nie ma R w tytule ale laby były oparte o R)
 * Na MIM UW przedmiot ,,Programowanie w R i SAS''  od 2010 do 2012 Przemysław Biecek, od 2016 przedmiot nazywa się ,,Programowanie i wizualizacja danych w R''
-* Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek, od 2013 Marek Gągolewski
+* Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek, od 2013 Marek Gągolewski. Z inicjatywy Przemysława Grzegorzewskiego wcześniej (od 2008 lub wcześniej - do sprawdzenia) R był używany na zajeciach ze Statystyki Matematycznej I oraz Computer Statistics 
 * Na Socjologia UW ,,Analiza sieci społecznych - warsztaty'' 2006 - 2008 (R oraz inne programy)
-* Na Wydziale Informatyki i Gospodarki Elektronicznej Uniwersytetu Ekonomicznego w Poznaniu -- Przedmioty: Statystyka Matematyczna (2008/2009, dr Marcin Szymkowiak), Wizualizacja i Raportowanie Danych Statystycznych, Real Estate Market Analysis, Geomarketing, Nieklasyczne Metody Analizy Danych w Biznesie, Pakiety Statystyczne (Marcin Szymkowiak, Maciej Beręsewicz), Programowanie w R (Paweł Kliber).
+* Na Wydziale Informatyki i Gospodarki Elektronicznej Uniwersytetu Ekonomicznego w Poznaniu -- Przedmioty: Statystyka Matematyczna (2008/2009, dr Marcin Szymkowiak), Wizualizacja i Raportowanie Danych Statystycznych, Real Estate Market Analysis, Geomarketing, Nieklasyczne Metody Analizy Danych w Biznesie, Pakiety Statystyczne (Marcin Szymkowiak, Maciej Beręsewicz), Programowanie w R (Paweł Kliber)
 
 
 ## Polskie konferencje / spotkania
