@@ -69,6 +69,7 @@ W kolejności publikacji
 * Ekonometryczne modelowanie polskiej gospodarki z pakietem R. Autor: Michał Rubaszek, Oficyna Wydawnicza SGH 2012, 
 * Receptury w R, Bogumił Kamiński, Mateusz Zawisza, 2012 http://wydawnictwo.sgh.waw.pl/produkty/profilProduktu/id/571/RECEPTURY_W_R_Bogumil_Kaminski_Mateusz_Zawisza/
 * Wstęp do statystyki odpornej. Kurs z wykorzystaniem środowiska R, 2012, Daniel Kosiorowski
+* Wnioskowanie statystyczne z wykorzystaniem środowiska R, Grzegorzewski P., Gagolewski M., Bobecka-Wesołowska K., 2014
 * Programowanie w języku R. Analiza danych, obliczenia, symulacje. Autor: Marek Gągolewski, Wydawnictwo Naukowe PWN 2014 (wydanie pierwsze), 2016 (wydanie drugie poszerzone), 
 * Adam Zagdański, Artur Suchwałko: Analiza i prognozowanie szeregów czasowych : praktyczne wprowadzenie na podstawie środowiska R. Warszawa: Wydawnictwo Naukowe PWN, 2016. 
 * Nowosad, Jakub. 2016. “Geostatystyka W R.” https://bookdown.org/nowosad/Geostatystyka/.
