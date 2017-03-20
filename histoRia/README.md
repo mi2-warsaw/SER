@@ -15,11 +15,13 @@
 
 W podziale na wydziały
 
+* Na MIM UW przedmiot ,,Symulacje Stochastyczne'' od 2002 Piotr Pokarowski (nie ma R w tytule ale laby były oparte o R)
 * Na IM PWr przedmiot ,,Data Mining'' od 2003 Adam Zagdański, Artur Suchwałko (nie ma R w tytule ale laby były oparte o R)
-* Na MIM UW przedmiot ,,Programowanie w R i SAS''  od 2010 do 2012 Przemysław Biecek, od 2016 przedmiot nazywa się ,,Programowanie i wizualizacja danych w R''
-* Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek, od 2013 Marek Gągolewski. Z inicjatywy Przemysława Grzegorzewskiego wcześniej (od 2008 lub wcześniej - do sprawdzenia) R był używany na zajeciach ze Statystyki Matematycznej I oraz Computer Statistics 
-* Na Socjologia UW ,,Analiza sieci społecznych - warsztaty'' 2006 - 2008 (R oraz inne programy)
 * Na Wydziale Informatyki i Gospodarki Elektronicznej Uniwersytetu Ekonomicznego w Poznaniu -- Przedmioty: Statystyka Matematyczna (2008/2009, dr Marcin Szymkowiak), Wizualizacja i Raportowanie Danych Statystycznych, Real Estate Market Analysis, Geomarketing, Nieklasyczne Metody Analizy Danych w Biznesie, Pakiety Statystyczne (Marcin Szymkowiak, Maciej Beręsewicz), Programowanie w R (Paweł Kliber)
+* Na Socjologia UW ,,Analiza sieci społecznych - warsztaty'' 2006 - 2008 (R oraz inne programy)
+* Na MiNI PW Statystyka Matematyczna I oraz Computer Statistics z inicjatywy Przemysława Grzegorzewskiego od 2008 
+* Osobny kurs o programowaniu w R: Na MIM UW  ,,Programowanie w R i SAS''  od 2010 do 2012 Przemysław Biecek, od 2016 przedmiot nazywa się ,,Programowanie i wizualizacja danych w R''
+* Osobny kurs o programowaniu w R: Na MiNI PW przedmiot ,,Programowanie w R''  od 2011 Przemysław Biecek, od 2013 Marek Gągolewski. 
 
 
 ## Polskie konferencje / spotkania
