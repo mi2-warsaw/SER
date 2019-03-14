@@ -24,3 +24,5 @@ Marko Robnik-Šikonja is Professor of Computer Science and Informatics and Head 
 After the talk, we will celebrate the 5th anniversary of SER/RUG with a cake.
 
 The event will be sponsored by Appsilon.
+
+![SERMeetup.jpg](SERMeetup.jpg)
