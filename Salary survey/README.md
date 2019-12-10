@@ -5,4 +5,4 @@ http://bit.ly/salary-survey-pl-19
 After collecting responses we will publish a summary report in this repo.
 
 ## Raw data
-Depending on the respondents answers we hope to publish raw data as well.
+[link to the Google spreadsheet](https://docs.google.com/spreadsheets/d/1po8Q24WUpttf3vCC80Ldyuf-o-UkuCSap4ABGZzzXeY/edit?usp=sharing)
